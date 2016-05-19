@@ -1,0 +1,33 @@
+# Jetty Downloads
+
+* Jetty Website: http://www.eclipse.org/jetty
+* Jetty Documentation Hub: http://www.eclipse.org/jetty/documentation
+
+The latest release of all minor releases are below, earlier releases in a minor release version are available under the archived releases link below.
+
+## Downloads
+
+.Jetty Downloads
+[width="100%",cols="8*",options="",]
+|=======================================================================
+| stable-9:	
+| http://download.eclipse.org/jetty/stable-9/dist/jetty-distribution-9.3.9.v20160517.zip[.zip] 
+| http://download.eclipse.org/jetty/stable-9/dist/jetty-distribution-9.3.9.v20160517.tar.gz[.tgz] 
+| (http://download.eclipse.org/jetty/stable-9/dist/[all])	
+| apidocs	| xref
+
+(etc etc)
+
+Note: Releases are *.zip and *tar.gz files. There are also other files containing signatures and checksums under (all) that you can use to validate content.
+
+You can find all archived Jetty releases (for Jetty 7+) here.
+
+
+## Jetty P2 Repositories
+
+These are not for general use and are provided strictly for OSGI users.
+
+* http://download.eclipse.org/jetty/updates/jetty-bundles-7.x[Composite Jetty-7 P2 repo]
+* http://download.eclipse.org/jetty/updates/jetty-bundles-8.x[Composite Jetty-8 P2 repo]
+* http://download.eclipse.org/jetty/updates/jetty-bundles-9.x[Composite Jetty-9 P2 repo]
+* http://download.eclipse.org/jetty/orbit[Jetty Orbit dependencies]

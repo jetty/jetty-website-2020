@@ -12,6 +12,8 @@
   <!-- tweak the generation of toc generation -->
   <xsl:param name="generate.section.toc.level" select="1"/>
   <xsl:param name="toc.section.depth" select="1"/>
+  <xsl:param name="generate.toc" select="'article  nop'"/> 
+
   <!--    Important links:    - http://www.sagehill.net/docbookxsl/    - http://docbkx-tools.sourceforge.net/  -->
   <!-- This addresses the issue where 'the section called "foo"' is rendered when we really only want 'foo'       Note: we should still be able to use xrefstyle on xrefs -->
   <xsl:param name="local.l10n.xml" select="document('')"/>

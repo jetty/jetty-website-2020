@@ -1,0 +1,17 @@
+:no title:
+
+The documentation is for Jetty is a constant work in progress.
+
+* Jetty 9 - Current
+* Jetty 8 - The Eclipse Wiki
+* Jetty 7 - The Eclipse Wiki
+
+This documentation is a community effort and is hosted at GitHub and we invite contributors to fork the Jetty repository and contribute! More information can be found in the Contributing Documentation section.
+
+You can also download PDF versions of the documentation from Webtide at http://www.webtide.com. 
+Updated PDF's will be available as we release new Jetty versions and once registered are located under the Downloads section of the website.
+
+Documentation for specific versions of Jetty 9 are available here. 
+Generally speaking the current documentation is best however we provide these snapshots of the documentation at specific release points for reference.
+
+TODO (list)

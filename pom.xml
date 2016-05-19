@@ -95,12 +95,12 @@
                 <copy todir="target/docbkx/html/css">
                   <fileset dir="src/main/html-resources/css" />
                 </copy>
-                <copy todir="target/docbkx/html/fonts">
+                <!--<copy todir="target/docbkx/html/fonts">
                   <fileset dir="src/main/html-resources/fonts" />
                 </copy>
                 <copy todir="target/docbkx/html/js">
                   <fileset dir="src/main/html-resources/js" />
-                </copy>
+                </copy>-->
               </preProcess>
             </configuration>
           </execution>
