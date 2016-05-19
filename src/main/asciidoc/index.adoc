@@ -1,0 +1,41 @@
+:no title:
+
+Jetty provides a Web server and javax.servlet container, plus support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations. 
+These components are open source and available for commercial use and distribution.
+
+Jetty is used in a wide variety of projects and products, both in development and production. 
+Jetty can be easily embedded in devices, tools, frameworks, application servers, and clusters. 
+See the Jetty Powered page for more uses of Jetty.
+
+The current recommended version for use is Jetty 9 which can be obtained here: Jetty Downloads. 
+Also available are the latest maintenance releases of Jetty 8 and Jetty 7.
+
+The Jetty project is hosted entirely at the Eclipse Foundation and has been for a number of years. 
+Prior releases of Jetty have existed in part or completely under the Jetty project at the Codehaus. 
+See the About page for more information about the history of Jetty.
+
+[cols="a,a", frame="topbot", options="header"]
+|=========================================================
+| Features	| Jetty Powered
+|
+* Jetty Powered
+* Full-featured and standards-based
+* Open source and commercially usable
+* Flexible and extensible
+* Small footprint
+* Embeddable
+* Asynchronous
+* Enterprise scalable
+* Dual licensed under Apache and Eclipse
+|
+* Large clusters, such as the Yahoo Hadoop Cluster
+* Cloud computing, such as the Google AppEngine
+* SaaS, such as Yahoo! Zimbra
+* Application Servers, such as Apache Geronimo
+* Frameworks, such as GWT
+* Tools, such as the Eclipse IDE
+* Devices, such as phones
+* More...
+|=========================================================
+
+You can benefit from committer knowledge and get training, consulting services, professional support and even production SLAs, just ask us about it!
