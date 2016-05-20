@@ -54,7 +54,8 @@
               <!--<sourceDocumentName>index.adoc</sourceDocumentName>-->
               <preserveDirectories>true</preserveDirectories>
               <attributes>
-                <imagesdir></imagesdir>
+                <imagesdir>
+                </imagesdir>
                 <version>${project.version}</version>
                 <linkcss>true</linkcss>
                 <allow-uri-read>true</allow-uri-read>
@@ -95,12 +96,17 @@
                 <copy todir="target/docbkx/html/css">
                   <fileset dir="src/main/html-resources/css" />
                 </copy>
-                <!--<copy todir="target/docbkx/html/fonts">
+                <copy todir="target/docbkx/html/fonts">
                   <fileset dir="src/main/html-resources/fonts" />
                 </copy>
-                <copy todir="target/docbkx/html/js">
-                  <fileset dir="src/main/html-resources/js" />
-                </copy>-->
+                <!-- TODO review older static documentation need -->
+                <copy todir="target/docbkx/html/documentation">
+                  <fileset dir="src/main/html-resources/documentation" />
+                </copy>
+                <!-- TODO get this generated/paginated -->
+                <copy todir="target/docbkx/html/powered">
+                  <fileset dir="src/main/html-resources/powered" />
+                </copy>
               </preProcess>
             </configuration>
           </execution>
@@ -132,6 +138,49 @@
         </dependencies>
       </plugin>
       <plugin>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>unpack</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+            <configuration>
+              <artifactItems>
+                <artifactItem>
+                  <groupId>org.eclipse.jetty</groupId>
+                  <artifactId>jetty-documentation</artifactId>
+                  <version>9.3.9.v20160517</version>
+                  <classifier>html</classifier>
+                  <type>zip</type>
+                  <overWrite>true</overWrite>
+                  <outputDirectory>target/documentation-resource/9.3.9.v20160517</outputDirectory>
+                </artifactItem>
+                <artifactItem>
+                  <groupId>org.eclipse.jetty</groupId>
+                  <artifactId>jetty-documentation</artifactId>
+                  <version>9.3.10-SNAPSHOT</version>
+                  <classifier>html</classifier>
+                  <type>zip</type>
+                  <overWrite>true</overWrite>
+                  <outputDirectory>target/documentation-resource/9.3.x</outputDirectory>
+                </artifactItem>
+                <artifactItem>
+                  <groupId>org.eclipse.jetty</groupId>
+                  <artifactId>jetty-documentation</artifactId>
+                  <version>9.4.0-SNAPSHOT</version>
+                  <classifier>html</classifier>
+                  <type>zip</type>
+                  <overWrite>true</overWrite>
+                  <outputDirectory>target/documentation-resource/9.4.x</outputDirectory>
+                </artifactItem>
+              </artifactItems>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
         <version>2.6</version>
         <configuration>
@@ -149,6 +198,47 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <version>1.8</version>
+        <executions>
+          <execution>
+            <phase>process-resources</phase>
+            <configuration>
+              <target>
+                <copy todir="target/docbkx/html/documentation/9.3.9.v20160517">
+                  <fileset dir="target/documentation-resource/9.3.9.v20160517/jetty-documentation-9.3.9.v20160517/html"/>
+                </copy>
+                <copy todir="target/docbkx/html/documentation/current">
+                  <fileset dir="target/documentation-resource/9.3.9.v20160517/jetty-documentation-9.3.9.v20160517/html"/>
+                </copy>
+                <copy todir="target/docbkx/html/documentation/9.3.x">
+                  <fileset dir="target/documentation-resource/9.3.x/jetty-documentation-9.3.10-SNAPSHOT/html"/>
+                </copy>
+                <copy todir="target/docbkx/html/documentation/9.4.x">
+                  <fileset dir="target/documentation-resource/9.4.x/jetty-documentation-9.4.0-SNAPSHOT/html"/>
+                </copy>
+              </target>
+            </configuration>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
+  <repositories>
+    <repository>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>never</updatePolicy>
+        <checksumPolicy>fail</checksumPolicy>
+      </snapshots>
+      <id>jetty-snapshots</id>
+      <name>Jetty Snapshot Repository</name>
+      <url>https://oss.sonatype.org/content/groups/jetty-with-staging/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
 </project>

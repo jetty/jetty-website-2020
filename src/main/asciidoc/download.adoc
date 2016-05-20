@@ -1,26 +1,42 @@
-# Jetty Downloads
-
-* Jetty Website: http://www.eclipse.org/jetty
-* Jetty Documentation Hub: http://www.eclipse.org/jetty/documentation
+= Jetty Downloads
 
 The latest release of all minor releases are below, earlier releases in a minor release version are available under the archived releases link below.
 
-## Downloads
-
 .Jetty Downloads
-[width="100%",cols="8*",options="",]
+[width="100%",cols="30%,10%,10%,10%,10%,30%",options="header",]
 |=======================================================================
-| stable-9:	
-| http://download.eclipse.org/jetty/stable-9/dist/jetty-distribution-9.3.9.v20160517.zip[.zip] 
-| http://download.eclipse.org/jetty/stable-9/dist/jetty-distribution-9.3.9.v20160517.tar.gz[.tgz] 
-| (http://download.eclipse.org/jetty/stable-9/dist/[all])	
-| apidocs	| xref
-
-(etc etc)
-
-Note: Releases are *.zip and *tar.gz files. There are also other files containing signatures and checksums under (all) that you can use to validate content.
-
-You can find all archived Jetty releases (for Jetty 7+) here.
+| Release | | | | |
+| 9.3.9.v20160517	
+| http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.9.v20160517/jetty-distribution-9.3.9.v20160517.zip[.zip] 
+| http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.9.v20160517/jetty-distribution-9.3.9.v20160517.tar.gz[.tgz] 
+| http://download.eclipse.org/jetty/9.3.9.v20160517/apidocs[apidocs]	
+| http://download.eclipse.org/jetty/9.3.9.v20160517/xref[xref]
+| Latest (JDK 8+)
+| 9.3.8.v20160314
+| http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.8.v20160314/jetty-distribution-9.3.8.v20160314.zip[.zip] 
+| http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.8.v20160314/jetty-distribution-9.3.8.v20160314.tar.gz[.tgz] 
+| http://download.eclipse.org/jetty/9.3.8.v20160314/apidocs[apidocs]	
+| http://download.eclipse.org/jetty/9.3.8.v20160314/xref[xref]
+| Release (JDK 8+)
+| 9.2.17.v20160517
+| http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.2.17.v20160517/jetty-distribution-9.2.17.v20160517.zip[.zip] 
+| http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.2.17.v20160517/jetty-distribution-9.2.17.v20160517.tar.gz[.tgz] 
+| http://download.eclipse.org/jetty/9.2.17.v20160517/apidocs[apidocs]	
+| http://download.eclipse.org/jetty/9.2.17.v20160517/xref[xref]
+| Release (Java 7+)
+| 8.1.19.v20160209
+| http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/8.1.19.v20160209/jetty-distribution-8.1.19.v20160209.zip[.zip] 
+| http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/8.1.19.v20160209/jetty-distribution-8.1.19.v20160209.tar.gz[.tgz] 
+| http://download.eclipse.org/jetty/8.1.17.v20150415/apidocs[apidocs]	
+| http://download.eclipse.org/jetty/8.1.17.v20150415/xref[xref]
+| Release (EOL)
+| 7.6.19.v20160209
+| http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/7.6.19.v20160209/jetty-distribution-7.6.19.v20160209.zip[.zip] 
+| http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/7.6.19.v20160209/jetty-distribution-7.6.19.v20160209.tar.gz[.tgz] 
+| http://download.eclipse.org/jetty/7.6.17.v20150415/apidocs[apidocs]	
+| http://download.eclipse.org/jetty/7.6.17.v20150415/xref[xref]
+| Release (EOL)
+|=======================================================================
 
 
 ## Jetty P2 Repositories
@@ -30,4 +46,3 @@ These are not for general use and are provided strictly for OSGI users.
 * http://download.eclipse.org/jetty/updates/jetty-bundles-7.x[Composite Jetty-7 P2 repo]
 * http://download.eclipse.org/jetty/updates/jetty-bundles-8.x[Composite Jetty-8 P2 repo]
 * http://download.eclipse.org/jetty/updates/jetty-bundles-9.x[Composite Jetty-9 P2 repo]
-* http://download.eclipse.org/jetty/orbit[Jetty Orbit dependencies]

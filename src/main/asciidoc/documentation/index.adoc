@@ -1,17 +1,32 @@
 :no title:
 
-The documentation is for Jetty is a constant work in progress.
+The documentation is for Jetty is always a work in progress.
 
-* Jetty 9 - Current
-* Jetty 8 - The Eclipse Wiki
-* Jetty 7 - The Eclipse Wiki
+Jetty documentation is a community effort and is bundled in with the link:http://github.com/eclipse/jetty.project[Jetty source] on GitHub and we invite contributors to fork the Jetty repository and contribute! 
+More information can be found in the link:/jetty/documentation/9.3.9.v20160517/contributing-documentation.html[Contributing Documentation] section.
 
-This documentation is a community effort and is hosted at GitHub and we invite contributors to fork the Jetty repository and contribute! More information can be found in the Contributing Documentation section.
-
-You can also download PDF versions of the documentation from Webtide at http://www.webtide.com. 
+You can also download many PDF versions of the documentation from Webtide at http://www.webtide.com. 
 Updated PDF's will be available as we release new Jetty versions and once registered are located under the Downloads section of the website.
 
-Documentation for specific versions of Jetty 9 are available here. 
-Generally speaking the current documentation is best however we provide these snapshots of the documentation at specific release points for reference.
+Documentation for many versions of Jetty 9 are available here. 
+Generally speaking the current documentation is most useful however we provide these snapshots of the documentation at specific release points for reference.
 
-TODO (list)
+.Jetty Documentation
+[width="100%",cols="50%,25%,25%",options="header",]
+|=======================================================================
+| Release |  | 
+| 9.3.9.v20160517	
+| link:/jetty/documentation/9.3.9.v20160517[view]
+| http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-documentation/9.3.9.v20160517/jetty-documentation-9.3.9.v20160517-html.zip[download] 
+| 9.2.10.v20150310	
+| link:/jetty/documentation/9.2.10.v20150310[view]
+|  
+| 9.1.5.v20140505	
+| link:/jetty/documentation/9.1.5.v20140505[view]
+|  
+| 9.0.6.v20130930	
+| link:/jetty/documentation/9.0.6.v20130930[view]
+| 
+| Jetty 7	& 8 (Wiki)
+| link:https://wiki.eclipse.org/Jetty[view]
+| 

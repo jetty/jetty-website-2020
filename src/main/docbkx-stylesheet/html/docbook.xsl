@@ -11,6 +11,7 @@
   <xsl:param name="use.id.as.filename" select="1"/>
   <!-- tweak the generation of toc generation -->
   <xsl:param name="generate.section.toc.level" select="1"/>
+  <xsl:param name="chunk.section.depth" select="0"></xsl:param>
   <xsl:param name="toc.section.depth" select="1"/>
   <xsl:param name="generate.toc" select="'article  nop'"/>
   <!--    Important links:    - http://www.sagehill.net/docbookxsl/    - http://docbkx-tools.sourceforge.net/  -->
@@ -48,9 +49,14 @@
     <title>Jetty - Servlet Engine and Http Server</title>
     <link rel="stylesheet" href="http://www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/styles.min.css"/>
     <meta property="og:description" content="Jetty is a highly scalable modular servlet engine and http server that natively supports many modern protocols like SPDY and WebSockets." />
-    <meta property="og:image" content="http://www.eclipse.org/jetty/images/jetty-logo-80x22.png" />
+    <meta property="og:image" content="https://www.eclipse.org/jetty/images/jetty-logo-80x22.png" />
     <meta property="og:title" content="Jetty - Servlet Engine and Http Server" />
-    <link rel="stylesheet" type="text/css" href="css/jetty.css"/>
+    <link rel="stylesheet" type="text/css" href="/jetty/css/jetty.css"/>
+    <!-- 
+    uncomment when testing locally 
+    -->
+    <link rel="stylesheet" type="text/css" href="/jetty/css/styles.min.css"/>
+    
   </xsl:template>
   <!--  Primary Eclipse Solstice Theme Header  -->
   <xsl:template name="user.header.navigation">
@@ -342,9 +348,18 @@
               </xsl:when>
               <xsl:when test="local-name(.) = 'separator'">
                 <li class="separator">
-                  <a class="separator">
-                    <xsl:value-of select="title"/>
-                  </a>
+                  <xsl:choose>
+                    <xsl:when test="url">
+                      <xsl:element name="a">
+                        <xsl:attribute name="class">separator</xsl:attribute>
+                        <xsl:attribute name="href"><xsl:value-of select="url"/></xsl:attribute>
+                        <xsl:value-of select="title"/>
+                      </xsl:element>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:value-of select="title"/>
+                    </xsl:otherwise>
+                  </xsl:choose>
                 </li>
               </xsl:when>
             </xsl:choose>
@@ -369,18 +384,13 @@
         <body>
           <xsl:call-template name="body.attributes"/>
           <xsl:call-template name="user.header.navigation"/>
-          <!--      <xsl:call-template name="header.navigation">
-          <xsl:with-param name="prev" select="$prev"/>
-          <xsl:with-param name="next" select="$next"/>
-          <xsl:with-param name="nav.context" select="$nav.context"/>
-        </xsl:call-template>-->
         <main class="no-promo">
           <div class="novaContent container" id="novaContent">
             <xsl:call-template name="user.header.content"/>
             <div id="maincontent">
               <div id="midcolumn">
                 <center>
-                  <img src="images/jetty-logo-80x22.png"/>
+                  <img src="/jetty/images/jetty-logo-80x22.png"/>
                 </center>
                 <xsl:copy-of select="$content"/>
               </div>
@@ -388,11 +398,6 @@
             <xsl:call-template name="user.footer.content"/>
           </div>
         </main>
-        <!--      <xsl:call-template name="footer.navigation">
-        <xsl:with-param name="prev" select="$prev"/>
-        <xsl:with-param name="next" select="$next"/>
-        <xsl:with-param name="nav.context" select="$nav.context"/>
-      </xsl:call-template>-->
       <footer role="contentinfo" id="solstice-footer">
         <xsl:call-template name="user.footer.navigation"/>
       </footer>
@@ -433,18 +438,26 @@
     <div class="sideitem">
       <h6>Active Contributors</h6>
       <xsl:for-each select="$metadata/website-metadata/contributors/*">
-            <div style="position: relative; height: 50px;">      
-              <xsl:element name="a">
-                <xsl:attribute name="href"><xsl:value-of select="url"/></xsl:attribute>
-                <xsl:attribute name="target">_blank</xsl:attribute>
-                <xsl:attribute name="title"><xsl:value-of select="title"/></xsl:attribute>
-                <xsl:element name="img">
-                  <xsl:attribute name="alt"><xsl:value-of select="title"/></xsl:attribute>
-                  <xsl:attribute name="src"><xsl:value-of select="image"/></xsl:attribute>
-                  <xsl:attribute name="style">position: absolute; left: 10px; top: 10px; width: 150px; height: auto;</xsl:attribute>
-                </xsl:element>
-              </xsl:element>
-            </div> 
+        <div style="position: relative; height: 50px;">
+          <xsl:element name="a">
+            <xsl:attribute name="href">
+              <xsl:value-of select="url"/>
+            </xsl:attribute>
+            <xsl:attribute name="target">_blank</xsl:attribute>
+            <xsl:attribute name="title">
+              <xsl:value-of select="title"/>
+            </xsl:attribute>
+            <xsl:element name="img">
+              <xsl:attribute name="alt">
+                <xsl:value-of select="title"/>
+              </xsl:attribute>
+              <xsl:attribute name="src">
+                <xsl:value-of select="image"/>
+              </xsl:attribute>
+              <xsl:attribute name="style">position: absolute; left: 10px; top: 10px; width: 150px; height: auto;</xsl:attribute>
+            </xsl:element>
+          </xsl:element>
+        </div>
       </xsl:for-each>
     </div>
   </div>
@@ -573,7 +586,8 @@
     </div>
   </div>
 </xsl:template>
-<xsl:template name="navig.content">    navig.content  </xsl:template>
-<!--Override the default header navigation to insert a home button on the top.-->
-<xsl:template name="header.navigation">    header.navigation  </xsl:template>
+<xsl:template name="navig.content">
+</xsl:template>
+<xsl:template name="header.navigation">
+</xsl:template>
 </xsl:stylesheet>

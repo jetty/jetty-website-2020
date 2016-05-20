@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <website-metadata>
   <left-column>
+    <separator>
+      <title>Jetty</title>
+      <url>/jetty/index.html</url>
+    </separator>
     <link>
       <title>About Jetty</title>
-      <url>about.html</url>
+      <url>/jetty/about.html</url>
     </link>
     <link>
       <title>Jetty Powered</title>
-      <url>powered</url>
+      <url>/jetty/powered</url>
     </link>
     <link>
       <title>Licenses</title>
-      <url>licenses.html</url>
+      <url>/jetty/licenses.html</url>
     </link>
     <separator>
       <title>Resources</title>
     </separator>
     <link>
       <title>Documentation</title>
-      <url>documentation</url>
+      <url>/jetty/documentation</url>
     </link>
     <link>
       <title>Downloads</title>
-      <url>download.html</url>
+      <url>/jetty/download.html</url>
     </link>
     <link>
       <title>Maven Plugin</title>
-      <url>documentation/current/jetty-maven-plugin.html</url>
+      <url>/jetty/documentation/current/jetty-maven-plugin.html</url>
     </link>
     <link>
       <title>Eclipse Tooling</title>
@@ -34,7 +38,7 @@
     </link>
     <link>
       <title>Mailing Lists</title>
-      <url>mailinglists.html</url>
+      <url>/jetty/mailinglists.html</url>
     </link>
     <link>
       <title>JavaDoc</title>
@@ -46,7 +50,7 @@
     </link>
     <link>
       <title>Tools</title>
-      <url>tools.html</url>
+      <url>/jetty/tools.html</url>
     </link>
     <link>
       <title>Blogs</title>
@@ -57,11 +61,11 @@
     </separator>
     <link>
       <title>Community</title>
-      <url>documentation/current/advanced-contributing.html#community</url>
+      <url>/jetty/documentation/current/advanced-contributing.html#community</url>
     </link>
     <link>
       <title>Contributing</title>
-      <url>documentation/current/contributing-patches.html</url>
+      <url>/jetty/documentation/current/contributing-patches.html</url>
     </link>
     <link>
       <title>Project Plan</title>
@@ -90,7 +94,7 @@
     </link>
     <link>
       <title>Documentation</title>
-      <url>documentation/current</url>
+      <url>/jetty/documentation/current</url>
     </link>
     <link>
       <title>Download</title>
@@ -109,7 +113,7 @@
     <contributor>
       <name>Webtide LLC</name>
       <url>http://www.webtide.com/</url>
-      <image>http://www.eclipse.org/jetty/images/webtide-dark.png</image>
+      <image>https://www.eclipse.org/jetty/images/webtide-dark.png</image>
     </contributor>
   </contributors>
 </website-metadata>

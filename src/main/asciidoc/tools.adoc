@@ -1,4 +1,4 @@
-= YourKit
+== YourKit
 
 The Jetty project uses YourKit for profiling Jetty.
 
@@ -8,8 +8,8 @@ Take a look at YourKit's leading software products: http://www.yourkit.com/java/
 
 
 
-= IntelliJ
+== IntelliJ
 
 Several developers on the Jetty project use IntelliJ for developing Jetty.
 
-TODO image
+image:/jetty/images/logo_IntelliJIDEA.png
