@@ -108,7 +108,7 @@
         <configuration>
           <!-- shared configuration -->
           <sourceDirectory>${project.build.directory}/generated-docs</sourceDirectory>
-          <!--<includes>index.xml</includes>-->
+          <includes>**/*.xml</includes>
           <generatedSourceDirectory>${project.build.directory}/docbkx/generated</generatedSourceDirectory>
           <chunkedOutput>true</chunkedOutput>
           <highlightSource>true</highlightSource>

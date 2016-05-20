@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website-metadata>
+  <left-column>
+    <link>
+      <title>About Jetty</title>
+      <url>about.html</url>
+    </link>
+    <link>
+      <title>Jetty Powered</title>
+      <url>powered</url>
+    </link>
+    <link>
+      <title>Licenses</title>
+      <url>licenses.html</url>
+    </link>
+    <separator>
+      <title>Resources</title>
+    </separator>
+    <link>
+      <title>Documentation</title>
+      <url>documentation</url>
+    </link>
+    <link>
+      <title>Downloads</title>
+      <url>download.html</url>
+    </link>
+    <link>
+      <title>Maven Plugin</title>
+      <url>documentation/current/jetty-maven-plugin.html</url>
+    </link>
+    <link>
+      <title>Eclipse Tooling</title>
+      <url>http://marketplace.eclipse.org/search/site/jetty?f[0]=im_taxonomy_vocabulary_3%3A31</url>
+    </link>
+    <link>
+      <title>Mailing Lists</title>
+      <url>mailinglists.html</url>
+    </link>
+    <link>
+      <title>JavaDoc</title>
+      <url>http://download.eclipse.org/jetty/stable-9/apidocs/</url>
+    </link>
+    <link>
+      <title>Source XRef</title>
+      <url>http://download.eclipse.org/jetty/stable-9/xref/</url>
+    </link>
+    <link>
+      <title>Tools</title>
+      <url>tools.html</url>
+    </link>
+    <link>
+      <title>Blogs</title>
+      <url>http://webtide.com/blogs</url>
+    </link>
+    <separator>
+      <title>Project Management</title>
+    </separator>
+    <link>
+      <title>Community</title>
+      <url>documentation/current/advanced-contributing.html#community</url>
+    </link>
+    <link>
+      <title>Contributing</title>
+      <url>documentation/current/contributing-patches.html</url>
+    </link>
+    <link>
+      <title>Project Plan</title>
+      <url>http://www.eclipse.org/projects/project-plan.php?projectid=rt.jetty</url>
+    </link>
+    <link>
+      <title>IP Log</title>
+      <url>http://www.eclipse.org/projects/ip_log.php?projectid=rt.jetty</url>
+    </link>
+    <link>
+      <title>Source</title>
+      <url>http://github.com/eclipse/jetty.project</url>
+    </link>
+    <separator>
+      <title>Professional Services</title>
+    </separator>
+    <link>
+      <title>Training and Consulting</title>
+      <url>http://marketplace.eclipse.org/search/site/jetty?f[0]=im_taxonomy_vocabulary_3%3A34</url>
+    </link>
+  </left-column>
+  <right-column>
+    <link>
+      <title>Project Summary</title>
+      <url>http://www.eclipse.org/projects/project_summary.php?projectid=rt.jetty</url>
+    </link>
+    <link>
+      <title>Documentation</title>
+      <url>documentation/current</url>
+    </link>
+    <link>
+      <title>Download</title>
+      <url>http://download.eclipse.org/jetty/stable-9/dist</url>
+    </link>
+    <link>
+      <title>Enter Bug</title>
+      <url>https://github.com/eclipse/jetty.project/issues/new</url>
+    </link>
+    <link>
+      <title>Reported Bugs</title>
+      <url>https://github.com/eclipse/jetty.project/issues</url>
+    </link>
+  </right-column>
+  <contributors>
+    <contributor>
+      <name>Webtide LLC</name>
+      <url>http://www.webtide.com/</url>
+      <image>http://www.eclipse.org/jetty/images/webtide-dark.png</image>
+    </contributor>
+  </contributors>
+</website-metadata>
