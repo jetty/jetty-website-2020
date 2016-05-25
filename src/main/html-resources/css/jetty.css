@@ -22,6 +22,6 @@
 
 #novaContent li {
     padding: 0;
-    list-style-type: disc;
+    list-style-type: fa fa-angle-double-right orange fa-fw;
     list-style-image: none;
 }
