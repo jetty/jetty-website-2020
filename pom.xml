@@ -241,4 +241,23 @@
       <layout>default</layout>
     </repository>
   </repositories>
+  <profiles>
+    <profile>
+      <id>website.deploy</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-scm-plugin</artifactId>
+            <version>1.9.4</version>
+            <configuration>
+              <connectionType>developerConnection</connectionType>
+              <connectionUrl>ssh://git.eclipse.org/gitroot/www.eclipse.org/jetty.git</connectionUrl>
+              <goals>validate</goals>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
 </project>
