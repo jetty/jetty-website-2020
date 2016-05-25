@@ -1,4 +1,5 @@
-:no title:
+
+== Jetty Documentation
 
 The documentation is for Jetty is a continual work in progress.
 
@@ -17,7 +18,7 @@ If you are interested in up to date documentation for branches, check them out h
 Documentation for many versions of Jetty 9 are available here. 
 Generally speaking the current documentation is most useful however we provide these snapshots of the documentation at specific release points for reference.
 
-.Jetty Documentation
+.empty
 [width="100%",cols="50%,25%,25%",options="header",]
 |=======================================================================
 | Release |  | 
@@ -36,3 +37,5 @@ Generally speaking the current documentation is most useful however we provide t
 | Jetty 7	& 8 (Wiki)
 | link:https://wiki.eclipse.org/Jetty[view]
 | 
+|=======================================================================
+

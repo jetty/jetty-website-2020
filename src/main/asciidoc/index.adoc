@@ -14,10 +14,11 @@ The Jetty project is hosted entirely at the Eclipse Foundation and has been for 
 Prior releases of Jetty have existed in part or completely under the Jetty project at the The Codehaus. 
 See the About page for more information about the history of Jetty.
 
-[cols="a,a", frame="topbot", options="header"]
+.empty
+[cols="1a,1a", frame="none", options="header",]
 |=========================================================
 | Features	| Jetty Powered
-|
+| 
 * Jetty Powered
 * Full-featured and standards-based
 * Open source and commercially usable
@@ -37,5 +38,6 @@ See the About page for more information about the history of Jetty.
 * Devices, such as phones
 * More...
 |=========================================================
+
 
 You can benefit from committer knowledge and get training, consulting services, professional support and even production SLAs, just ask us about it!

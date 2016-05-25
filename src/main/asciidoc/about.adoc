@@ -59,6 +59,7 @@ The Java HTTP server that became jetty was originally developed in 1995 by Greg 
 
 == Versions
 
+[caption=]
 .Jetty Versions
 [width="100%",cols="12%,9%,15%,6%,21%,10%,6%,21%",options="header",]
 |=======================================================================

@@ -22,6 +22,9 @@
       <l:context name="xref">
         <l:template name="section" text="%t"/>
       </l:context>
+      <l:context name="title">
+        <l:template name="table" text=""/>
+      </l:context>
     </l:l10n>
   </l:i18n>
   <xsl:template match="d:authorgroup" mode="titlepage.mode"/>
@@ -30,11 +33,14 @@
   <!-- allow sections to be excluded from toc generation -->
   <xsl:template match="d:section[@role = 'NotInToc']" mode="toc" />
   <xsl:template name="body.attributes">
+    <xsl:attribute name="id">body-solstice</xsl:attribute>
+    <!--
     <xsl:attribute name="bgcolor">white</xsl:attribute>
     <xsl:attribute name="text">black</xsl:attribute>
     <xsl:attribute name="link">#0000FF</xsl:attribute>
     <xsl:attribute name="vlink">#840084</xsl:attribute>
     <xsl:attribute name="alink">#0000FF</xsl:attribute>
+  -->
   </xsl:template>
   <xsl:param name="metadata" select="document('website-metadata.xml')"/>
   <!--  Head Content  -->
@@ -51,13 +57,21 @@
     <meta property="og:description" content="Jetty is a highly scalable modular servlet engine and http server that natively supports many modern protocols like SPDY and WebSockets." />
     <meta property="og:image" content="https://www.eclipse.org/jetty/images/jetty-logo-80x22.png" />
     <meta property="og:title" content="Jetty - Servlet Engine and Http Server" />
+
     <link rel="stylesheet" type="text/css" href="/jetty/css/jetty.css"/>
+    <link rel="stylesheet" type="text/css" href="/jetty/css/docbook.css"/>
+
     <!-- 
     uncomment when testing locally 
     -->
     <link rel="stylesheet" type="text/css" href="/jetty/css/styles.min.css"/>
-    
+
   </xsl:template>
+  <!-- 
+  suppress the natural inclusion of docbook.css and do that manually in user.head.content
+  -->
+  <xsl:template name="head.content"/>
+  
   <!--  Primary Eclipse Solstice Theme Header  -->
   <xsl:template name="user.header.navigation">
     <a class="sr-only" href="#content">Skip to main content</a>
@@ -392,7 +406,8 @@
                 <center>
                   <img src="/jetty/images/jetty-logo-80x22.png"/>
                 </center>
-                <xsl:copy-of select="$content"/>
+                <!--<xsl:copy-of select="$content"/>-->
+                <xsl:apply-templates/>
               </div>
             </div>
             <xsl:call-template name="user.footer.content"/>

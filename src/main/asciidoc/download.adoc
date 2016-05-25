@@ -1,8 +1,9 @@
-= Jetty Downloads
+
+== Jetty Downloads
 
 The latest release of all minor releases are below, earlier releases in a minor release version are available under the archived releases link below.
 
-.Jetty Downloads
+.empty
 [width="100%",cols="30%,10%,10%,10%,10%,30%",options="header",]
 |=======================================================================
 | Release | | | | |
@@ -39,7 +40,7 @@ The latest release of all minor releases are below, earlier releases in a minor 
 |=======================================================================
 
 
-## Jetty P2 Repositories
+== Jetty P2 Repositories
 
 These are not for general use and are provided strictly for OSGI users.
 

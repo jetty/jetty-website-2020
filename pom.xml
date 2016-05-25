@@ -138,6 +138,12 @@
         </dependencies>
       </plugin>
       <plugin>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <configuration>
+          <skip>true</skip>
+        </configuration>
+      </plugin>
+      <plugin>
         <artifactId>maven-dependency-plugin</artifactId>
         <executions>
           <execution>
@@ -180,84 +186,142 @@
           </execution>
         </executions>
       </plugin>
-      <plugin>
-        <artifactId>maven-assembly-plugin</artifactId>
-        <version>2.6</version>
-        <configuration>
-          <descriptors>
-            <descriptor>src/main/assembly/html.xml</descriptor>
-          </descriptors>
-        </configuration>
-        <executions>
-          <execution>
-            <id>make-assembly</id>
-            <phase>package</phase>
-            <goals>
-              <goal>single</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <artifactId>maven-antrun-plugin</artifactId>
-        <version>1.8</version>
-        <executions>
-          <execution>
-            <phase>process-resources</phase>
-            <configuration>
-              <target>
-                <copy todir="target/docbkx/html/documentation/9.3.9.v20160517">
-                  <fileset dir="target/documentation-resource/9.3.9.v20160517/jetty-documentation-9.3.9.v20160517/html"/>
-                </copy>
-                <copy todir="target/docbkx/html/documentation/current">
-                  <fileset dir="target/documentation-resource/9.3.9.v20160517/jetty-documentation-9.3.9.v20160517/html"/>
-                </copy>
-                <copy todir="target/docbkx/html/documentation/9.3.x">
-                  <fileset dir="target/documentation-resource/9.3.x/jetty-documentation-9.3.10-SNAPSHOT/html"/>
-                </copy>
-                <copy todir="target/docbkx/html/documentation/9.4.x">
-                  <fileset dir="target/documentation-resource/9.4.x/jetty-documentation-9.4.0-SNAPSHOT/html"/>
-                </copy>
-              </target>
-            </configuration>
-            <goals>
-              <goal>run</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
-  <repositories>
-    <repository>
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>never</updatePolicy>
-        <checksumPolicy>fail</checksumPolicy>
-      </snapshots>
-      <id>jetty-snapshots</id>
-      <name>Jetty Snapshot Repository</name>
-      <url>https://oss.sonatype.org/content/groups/jetty-with-staging/</url>
-      <layout>default</layout>
-    </repository>
-  </repositories>
-  <profiles>
-    <profile>
-      <id>website.deploy</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-scm-plugin</artifactId>
-            <version>1.9.4</version>
-            <configuration>
-              <connectionType>developerConnection</connectionType>
-              <connectionUrl>ssh://git.eclipse.org/gitroot/www.eclipse.org/jetty.git</connectionUrl>
-              <goals>validate</goals>
-            </configuration>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-  </profiles>
+      <!--      <plugin>
+      <artifactId>maven-assembly-plugin</artifactId>
+      <version>2.6</version>
+      <configuration>
+        <descriptors>
+          <descriptor>src/main/assembly/html.xml</descriptor>
+        </descriptors>
+      </configuration>
+      <executions>
+        <execution>
+          <id>make-assembly</id>
+          <phase>package</phase>
+          <goals>
+            <goal>single</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>    -->
+    <plugin>
+      <artifactId>maven-antrun-plugin</artifactId>
+      <version>1.8</version>
+      <executions>
+        <execution>
+          <phase>process-resources</phase>
+          <configuration>
+            <target>
+              <copy todir="target/docbkx/html/documentation/9.3.9.v20160517">
+                <fileset dir="target/documentation-resource/9.3.9.v20160517/jetty-documentation-9.3.9.v20160517/html"/>
+              </copy>
+              <copy todir="target/docbkx/html/documentation/current">
+                <fileset dir="target/documentation-resource/9.3.9.v20160517/jetty-documentation-9.3.9.v20160517/html"/>
+              </copy>
+              <copy todir="target/docbkx/html/documentation/9.3.x">
+                <fileset dir="target/documentation-resource/9.3.x/jetty-documentation-9.3.10-SNAPSHOT/html"/>
+              </copy>
+              <copy todir="target/docbkx/html/documentation/9.4.x">
+                <fileset dir="target/documentation-resource/9.4.x/jetty-documentation-9.4.0-SNAPSHOT/html"/>
+              </copy>
+            </target>
+          </configuration>
+          <goals>
+            <goal>run</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+  </plugins>
+</build>
+<repositories>
+  <repository>
+    <snapshots>
+      <enabled>true</enabled>
+      <updatePolicy>never</updatePolicy>
+      <checksumPolicy>fail</checksumPolicy>
+    </snapshots>
+    <id>jetty-snapshots</id>
+    <name>Jetty Snapshot Repository</name>
+    <url>https://oss.sonatype.org/content/groups/jetty-with-staging/</url>
+    <layout>default</layout>
+  </repository>
+</repositories>
+<profiles>
+  <profile>
+    <id>website.deploy</id>
+    <build>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-scm-plugin</artifactId>
+          <version>1.9.4</version>
+          <configuration>
+            <connectionType>developerConnection</connectionType>
+            <developerConnectionUrl>scm:git:ssh://git.eclipse.org/gitroot/www.eclipse.org/jetty.git</developerConnectionUrl>
+          </configuration>
+          <executions>
+            <execution>
+              <id>checkout</id>
+              <phase>validate</phase>
+              <goals>
+                <goal>checkout</goal>
+              </goals>
+              <configuration>
+                <checkoutDirectory>target/jetty.website</checkoutDirectory>
+              </configuration>
+            </execution>
+            <execution>
+              <id>commit-push</id>
+              <phase>deploy</phase>
+              <goals>
+                <goal>checkin</goal>
+              </goals>
+              <configuration>
+                <pushChanges>false</pushChanges>
+                <message>jetty-website automated deployment</message>
+                <workingDirectory>target/jetty.website</workingDirectory>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
+          <artifactId>maven-antrun-plugin</artifactId>
+          <version>1.8</version>
+          <executions>
+            <execution>
+              <phase>package</phase>
+              <configuration>
+                <target>
+                  <copy todir="target/docbkx/html/documentation/9.3.9.v20160517">
+                    <fileset dir="target/documentation-resource/9.3.9.v20160517/jetty-documentation-9.3.9.v20160517/html"/>
+                  </copy>
+                  <copy todir="target/docbkx/html/documentation/current">
+                    <fileset dir="target/documentation-resource/9.3.9.v20160517/jetty-documentation-9.3.9.v20160517/html"/>
+                  </copy>
+                  <copy todir="target/docbkx/html/documentation/9.3.x">
+                    <fileset dir="target/documentation-resource/9.3.x/jetty-documentation-9.3.10-SNAPSHOT/html"/>
+                  </copy>
+                  <copy todir="target/docbkx/html/documentation/9.4.x">
+                    <fileset dir="target/documentation-resource/9.4.x/jetty-documentation-9.4.0-SNAPSHOT/html"/>
+                  </copy>
+                  <exec executable="rsync" dir="." failonerror="true">
+                    <arg value="-azPS"/>
+                    <arg value="--filter=P .git"/>
+                    <arg value="--delete"/>
+                    <arg value="target/docbkx/html/"/>
+                    <arg value="target/jetty.website"/>
+                  </exec>
+                </target>
+              </configuration>
+              <goals>
+                <goal>run</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </build>
+  </profile>
+</profiles>
 </project>
