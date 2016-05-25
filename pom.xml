@@ -275,9 +275,13 @@
               <id>commit-push</id>
               <phase>deploy</phase>
               <goals>
+                <goal>add</goal>
+                <goal>checkin</goal>
+                <goal>remove</goal>
                 <goal>checkin</goal>
               </goals>
               <configuration>
+                <includes>**/**</includes>
                 <pushChanges>false</pushChanges>
                 <message>jetty-website automated deployment</message>
                 <workingDirectory>target/jetty.website</workingDirectory>
