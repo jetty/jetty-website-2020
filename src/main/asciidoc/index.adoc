@@ -12,7 +12,7 @@ Also available are the latest maintenance releases of Jetty 8 and Jetty 7.
 
 The Jetty project has been hosted at the Eclipse Foundation since 2009. 
 Prior releases of Jetty have existed in part or completely under the Jetty project at the The Codehaus and Sourceforge before that. 
-See the About page for more information about the history of Jetty.
+See the xref:/jetty/about.html[About] page for more information about the history of Jetty.
 
 .empty
 [cols="1a,1a", frame="none", options="header",]
