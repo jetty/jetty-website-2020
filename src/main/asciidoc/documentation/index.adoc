@@ -19,24 +19,7 @@ If you are interested in up to date documentation for branches, check them out h
 Documentation for many versions of Jetty 9 are available here. 
 Generally speaking the current documentation is most useful however we provide these snapshots of the documentation at specific release points for reference.
 
-.empty
-[width="100%",cols="50%,25%,25%",options="header",]
-|=======================================================================
-| Release |  | 
-| 9.3.9.v20160517	
-| link:/jetty/documentation/9.3.9.v20160517[view]
-| http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-documentation/9.3.9.v20160517/jetty-documentation-9.3.9.v20160517-html.zip[download] 
-| 9.2.10.v20150310	
-| link:/jetty/documentation/9.2.10.v20150310[view]
-|  
-| 9.1.5.v20140505	
-| link:/jetty/documentation/9.1.5.v20140505[view]
-|  
-| 9.0.6.v20130930	
-| link:/jetty/documentation/9.0.6.v20130930[view]
-| 
-| Jetty 7	& 8 (Wiki)
-| link:https://wiki.eclipse.org/Jetty[view]
-| 
-|=======================================================================
+++++
+<?dbhtml-include href="version-table.html"?>
+++++
 
