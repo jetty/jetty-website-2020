@@ -10,8 +10,8 @@ See the Jetty Powered page for more uses of Jetty.
 The current recommended version for use is Jetty 9 which can be obtained here: Jetty Downloads. 
 Also available are the latest maintenance releases of Jetty 8 and Jetty 7.
 
-The Jetty project is hosted entirely at the Eclipse Foundation and has been for a number of years. 
-Prior releases of Jetty have existed in part or completely under the Jetty project at the The Codehaus. 
+The Jetty project has been hosted at the Eclipse Foundation since 2009. 
+Prior releases of Jetty have existed in part or completely under the Jetty project at the The Codehaus and Sourceforge before that. 
 See the About page for more information about the history of Jetty.
 
 .empty
