@@ -24,6 +24,7 @@ RedirectMatch 301 ^/jetty/documentation/9.1.*/(.*) /jetty/documentation/9.1.5.v2
 RedirectMatch 301 ^/jetty/documentation/9.2.*/(.*) /jetty/documentation/9.2.10.v20150310/$1
 
 
+
 # Handle unfortunate appended module <url>'s
 RewriteRule ^/jetty/jetty /jetty/ [R=301,L]
 RewriteRule ^/jetty/jetty/configure.dtd$ /jetty/configure.dtd [L]
