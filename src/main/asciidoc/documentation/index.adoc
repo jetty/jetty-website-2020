@@ -3,20 +3,18 @@
 
 The documentation is for Jetty is a continual work in progress.
 
+* link:/jetty/documentation/current[Current Release Documentation]
+
 Jetty documentation is a community effort and is bundled in with the link:http://github.com/eclipse/jetty.project[Jetty source] on GitHub. 
 We invite contributors to fork the Jetty repository and contribute! 
-More information can be found in the link:/jetty/documentation/9.3.9.v20160517/contributing-documentation.html[Contributing Documentation] section.
+More information can be found in the link:/jetty/documentation/current/contributing-documentation.html[Contributing Documentation] section.
 
 You can also download many PDF versions of the documentation from Webtide at http://www.webtide.com. 
 Updated PDF's will be available as we release new Jetty versions and once registered are located under the Downloads section of the website.
 
-If you are interested in up to date documentation for branches, check them out here.
-
-* link:/jetty/documentation/9.3.x[Jetty 9.3.x]
-* link:/jetty/documentation/9.4.x[Jetty 9.4.x]
-
-Documentation for many versions of Jetty 9 are available here. 
-Generally speaking the current documentation is most useful however we provide these snapshots of the documentation at specific release points for reference.
+If you are interested in up to date documentation for specific branches, check out the relevant links in the table below.
+Documentation for the latest versions of Jetty minor releases can also be found in the table. 
+Generally speaking the documentation for the latest release is most useful however we provide these older versions documentation at specific release points for reference.
 
 ++++
 <?dbhtml-include href="version-table.html"?>
