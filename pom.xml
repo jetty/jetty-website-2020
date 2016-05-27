@@ -90,22 +90,8 @@
                     <include name="**/*.dot"/>
                   </fileset>
                 </copy>
-                <copy todir="target/docbkx/html/images">
-                  <fileset dir="src/main/html-resources/images" />
-                </copy>
-                <copy todir="target/docbkx/html/css">
-                  <fileset dir="src/main/html-resources/css" />
-                </copy>
-                <copy todir="target/docbkx/html/fonts">
-                  <fileset dir="src/main/html-resources/fonts" />
-                </copy>
-                <!-- TODO review older static documentation need -->
-                <copy todir="target/docbkx/html/documentation">
-                  <fileset dir="src/main/html-resources/documentation" />
-                </copy>
-                <!-- TODO get this generated/paginated -->
-                <copy todir="target/docbkx/html/powered">
-                  <fileset dir="src/main/html-resources/powered" />
+                <copy todir="target/docbkx/html">
+                  <fileset dir="src/main/html-resources/" />
                 </copy>
               </preProcess>
             </configuration>
