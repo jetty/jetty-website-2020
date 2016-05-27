@@ -14,7 +14,7 @@ The project provides:
 * Web Sockets server
 * SPDY server
 * Asynchronous HTTP Client
-* OSGi, JNDI, JMX, JASPI, AJP support
+* OSGI, JNDI, JMX, JASPI, AJP support 
 
 === Hightide 
 A note about Jetty Hightide. Previous releases of Jetty (6, 7 and 8) each released an additional distribution that contained some 3rd party integrations to give a more JEE experience however with Jetty 9 we have stopped providing this integration. 
