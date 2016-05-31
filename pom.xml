@@ -7,6 +7,9 @@
   <name>Jetty :: Website</name>
   <packaging>pom</packaging>
   <properties>
+    <jetty.stable.version>9.3.9.v20160517</jetty.stable.version>
+    <jetty.9.3.x.version>9.3.10-SNAPSHOT</jetty.9.3.x.version>
+    <jetty.9.4.x.version>9.4.0-SNAPSHOT</jetty.9.4.x.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <asciidoctor.version>1.5.3</asciidoctor.version>
     <html.directory>${project.build.directory}/jetty</html.directory>
@@ -143,16 +146,16 @@
                 <artifactItem>
                   <groupId>org.eclipse.jetty</groupId>
                   <artifactId>jetty-documentation</artifactId>
-                  <version>9.3.9.v20160517</version>
+                  <version>${jetty.stable.version}</version>
                   <classifier>html</classifier>
                   <type>zip</type>
                   <overWrite>true</overWrite>
-                  <outputDirectory>target/documentation-resource/9.3.9.v20160517</outputDirectory>
+                  <outputDirectory>target/documentation-resource/${jetty.stable.version}</outputDirectory>
                 </artifactItem>
                 <artifactItem>
                   <groupId>org.eclipse.jetty</groupId>
                   <artifactId>jetty-documentation</artifactId>
-                  <version>9.3.10-SNAPSHOT</version>
+                  <version>${jetty.9.3.x.version}</version>
                   <classifier>html</classifier>
                   <type>zip</type>
                   <overWrite>true</overWrite>
@@ -161,7 +164,7 @@
                 <artifactItem>
                   <groupId>org.eclipse.jetty</groupId>
                   <artifactId>jetty-documentation</artifactId>
-                  <version>9.4.0-SNAPSHOT</version>
+                  <version>${jetty.9.4.x.version}</version>
                   <classifier>html</classifier>
                   <type>zip</type>
                   <overWrite>true</overWrite>
@@ -172,24 +175,6 @@
           </execution>
         </executions>
       </plugin>
-      <!--      <plugin>
-      <artifactId>maven-assembly-plugin</artifactId>
-      <version>2.6</version>
-      <configuration>
-        <descriptors>
-          <descriptor>src/main/assembly/html.xml</descriptor>
-        </descriptors>
-      </configuration>
-      <executions>
-        <execution>
-          <id>make-assembly</id>
-          <phase>package</phase>
-          <goals>
-            <goal>single</goal>
-          </goals>
-        </execution>
-      </executions>
-    </plugin>    -->
     <plugin>
       <artifactId>maven-antrun-plugin</artifactId>
       <version>1.8</version>
@@ -205,10 +190,10 @@
                 <fileset dir="target/documentation-resource/9.3.9.v20160517/jetty-documentation-9.3.9.v20160517/html"/>
               </copy>
               <copy todir="target/docbkx/html/documentation/9.3.x">
-                <fileset dir="target/documentation-resource/9.3.x/jetty-documentation-9.3.10-SNAPSHOT/html"/>
+                <fileset dir="target/documentation-resource/9.3.x/${jetty.9.3.x.version}"/>
               </copy>
               <copy todir="target/docbkx/html/documentation/9.4.x">
-                <fileset dir="target/documentation-resource/9.4.x/jetty-documentation-9.4.0-SNAPSHOT/html"/>
+                <fileset dir="target/documentation-resource/9.4.x/${jetty.9.4.x.version}"/>
               </copy>
             </target>
           </configuration>
@@ -233,6 +218,10 @@
     <layout>default</layout>
   </repository>
 </repositories>
+<!--
+ This can be useful for manual deployment of the website, shouldn't be required
+ -->
+<!--
 <profiles>
   <profile>
     <id>website.deploy</id>
@@ -314,4 +303,5 @@
     </build>
   </profile>
 </profiles>
+-->
 </project>
