@@ -286,8 +286,8 @@
                   </copy>
                   <exec executable="rsync" dir="." failonerror="true">
                     <arg value="-azPS"/>
-                    <arg value="--filter=P .git"/>
-                    <arg value="--delete"/>
+                    <arg value="-\-filter=P .git"/>
+                    <arg value="-\-delete"/>
                     <arg value="target/docbkx/html/"/>
                     <arg value="target/jetty.website"/>
                   </exec>
