@@ -51,9 +51,9 @@
     <meta name="author" content="jmcconnell"/>
     <meta name="keywords" content="Jetty, Servlets, Async, SPDY, Web Server, Web Client, Eclipse RT, Eclipse Runtime"/>
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,100" rel="stylesheet" type="text/css"/>
-    <link rel="shortcut icon" href="http://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/favicon.ico"/>
+    <link rel="shortcut icon" href="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/favicon.ico"/>
     <title>Jetty - Servlet Engine and Http Server</title>
-    <link rel="stylesheet" href="http://www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/styles.min.css"/>
+    <link rel="stylesheet" href="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/styles.min.css"/>
     <meta property="og:description" content="Jetty is a highly scalable modular servlet engine and http server that natively supports many modern protocols like SPDY and WebSockets." />
     <meta property="og:image" content="https://www.eclipse.org/jetty/images/jetty-logo-80x22.png" />
     <meta property="og:title" content="Jetty - Servlet Engine and Http Server" />
