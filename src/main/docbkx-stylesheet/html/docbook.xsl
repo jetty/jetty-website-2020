@@ -101,7 +101,7 @@
                   <div class="hidden-xs col-sm-8 col-md-6 col-lg-5" id="header-left">
                     <div class="wrapper-logo-default">
                       <a href="https://www.eclipse.org/">
-                        <img class="logo-eclipse-default img-responsive hidden-xs" alt="logo" src="http://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-426x100.png"/>
+                        <img class="logo-eclipse-default img-responsive hidden-xs" alt="logo" src="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-426x100.png"/>
                       </a>
                     </div>
                   </div>
@@ -591,7 +591,7 @@
         <span class="hidden-print">
           <div class="wrapper-logo-eclipse-white">
             <a href="https://www.eclipse.org">
-              <img class="logo-eclipse-white img-responsive" alt="logo" src="http://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-logo-bw-332x78.png"/>
+              <img class="logo-eclipse-white img-responsive" alt="logo" src="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-logo-bw-332x78.png"/>
             </a>
           </div>
         </span>
