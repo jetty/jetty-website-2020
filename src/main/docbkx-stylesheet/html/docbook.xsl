@@ -209,10 +209,12 @@
                         </ul>
                       </li>
                       <!-- More -->
+                      <!--
                       <li class="dropdown eclipse-more hidden-xs">
                         <a data-toggle="dropdown" class="dropdown-toggle">More<b class="caret">
                         </b>
                       </a>
+                      -->
                       <ul class="dropdown-menu">
                         <li>
                           <!-- Content container to add padding -->
