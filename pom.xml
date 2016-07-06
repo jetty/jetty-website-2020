@@ -8,7 +8,7 @@
   <packaging>pom</packaging>
   <properties>
     <jetty.stable.version>9.3.10.v20160621</jetty.stable.version>
-    <jetty.9.3.x.version>9.3.10-SNAPSHOT</jetty.9.3.x.version>
+    <jetty.9.3.x.version>9.3.11-SNAPSHOT</jetty.9.3.x.version>
     <jetty.9.4.x.version>9.4.0-SNAPSHOT</jetty.9.4.x.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <asciidoctor.version>1.5.3</asciidoctor.version>
