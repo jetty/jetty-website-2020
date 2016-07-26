@@ -7,7 +7,7 @@
   <name>Jetty :: Website</name>
   <packaging>pom</packaging>
   <properties>
-    <jetty.stable.version>9.3.10.v20160621</jetty.stable.version>
+    <jetty.stable.version>9.3.11.v20160721</jetty.stable.version>
     <jetty.9.3.x.version>9.3.11-SNAPSHOT</jetty.9.3.x.version>
     <jetty.9.4.x.version>9.4.0-SNAPSHOT</jetty.9.4.x.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -183,12 +183,15 @@
           <phase>process-resources</phase>
           <configuration>
             <target>
+              <copy todir="target/docbkx/html/documentation/9.3.11.v20160721">
+                <fileset dir="target/documentation-resource/9.3.11.v20160721/9.3.11.v20160721"/>
+              </copy>
               <copy todir="target/docbkx/html/documentation/9.3.10.v20160621">
                 <fileset dir="target/documentation-resource/9.3.10.v20160621/9.3.10.v20160621"/>
               </copy>
               <!-- replace once 9.3.10 is out -->
               <copy todir="target/docbkx/html/documentation/current">
-                <fileset dir="target/documentation-resource/9.3.10.v20160621/9.3.10.v20160621"/>
+                <fileset dir="target/documentation-resource/9.3.11.v20160721/9.3.11.v20160721"/>
               </copy>
               
               <!-- remove once 9.3.10 is out -->
