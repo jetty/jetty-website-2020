@@ -1,7 +1,7 @@
 
 == Jetty Downloads
 
-The latest release of all minor releases are below, earlier releases in a minor release version are available under the archived releases link below.
+The latest release of all minor releases are below, earlier releases in a minor release version are available in Maven Central.
 
 .empty
 [width="100%",cols="30%,10%,10%,10%,10%,30%",options="header",]
