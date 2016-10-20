@@ -7,17 +7,17 @@ The latest release of all minor releases are below, earlier releases in a minor 
 [width="100%",cols="30%,10%,10%,10%,10%,30%",options="header",]
 |=======================================================================
 | Release | | | | |
+| 9.3.13.v20161014	
+| http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.13.v20161014/jetty-distribution-9.3.13.v20161014.zip[.zip] 
+| http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.13.v20161014/jetty-distribution-9.3.13.v20161014.tar.gz[.tgz] 
+| http://download.eclipse.org/jetty/9.3.13.v20161014/apidocs[apidocs]	
+| http://download.eclipse.org/jetty/9.3.13.v20161014/xref[xref]
+| Latest (JDK 8+)
 | 9.3.12.v20160915	
 | http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.12.v20160915/jetty-distribution-9.3.12.v20160915.zip[.zip] 
 | http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.12.v20160915/jetty-distribution-9.3.12.v20160915.tar.gz[.tgz] 
 | http://download.eclipse.org/jetty/9.3.12.v20160915/apidocs[apidocs]	
 | http://download.eclipse.org/jetty/9.3.12.v20160915/xref[xref]
-| Latest (JDK 8+)
-| 9.3.11.v20160721	
-| http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.11.v20160721/jetty-distribution-9.3.11.v20160721.zip[.zip] 
-| http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.11.v20160721/jetty-distribution-9.3.11.v20160721.tar.gz[.tgz] 
-| http://download.eclipse.org/jetty/9.3.11.v20160721/apidocs[apidocs]	
-| http://download.eclipse.org/jetty/9.3.11.v20160721/xref[xref]
 | Latest (JDK 8+)
 | 9.2.19.v20160908
 | http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.2.19.v20160908/jetty-distribution-9.2.19.v20160908.zip[.zip] 
