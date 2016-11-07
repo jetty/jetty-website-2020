@@ -39,6 +39,7 @@ The latest release of all minor releases are below, earlier releases in a minor 
 | Release (EOL)
 |=======================================================================
 
+Note: The canonical repository for Jetty is Maven Central.  All releases are always available there first and this download page may lag a bit update wise as post release resources are put into place.  You can always browse for Jetty releases http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution[here].
 
 == Jetty P2 Repositories
 
