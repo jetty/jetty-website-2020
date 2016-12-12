@@ -45,10 +45,6 @@
       <url>http://download.eclipse.org/jetty/stable-9/apidocs/</url>
     </link>
     <link>
-      <title>Source XRef</title>
-      <url>http://download.eclipse.org/jetty/stable-9/xref/</url>
-    </link>
-    <link>
       <title>Tools</title>
       <url>/jetty/tools.html</url>
     </link>
