@@ -19,9 +19,9 @@ The latest release of all minor releases are below, earlier releases in a minor 
 | http://download.eclipse.org/jetty/9.3.14.v20161028/apidocs[apidocs]	
 | http://download.eclipse.org/jetty/9.3.14.v20161028/xref[xref]
 | Latest (JDK 8+)
-| 9.2.19.v20160908
-| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.2.19.v20160908/jetty-distribution-9.2.19.v20160908.zip[.zip] 
-| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.2.19.v20160908/jetty-distribution-9.2.19.v20160908.tar.gz[.tgz] 
+| 9.2.20.v20161216
+| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.2.20.v20161216/jetty-distribution-9.2.20.v20161216zip[.zip] 
+| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.2.20.v20161216/jetty-distribution-9.2.20.v20161216.tar.gz[.tgz] 
 | http://download.eclipse.org/jetty/9.2.20.v20161216/apidocs[apidocs]	
 | http://download.eclipse.org/jetty/9.2.20.v20161216/xref[xref]
 | Release (Java 7+)
