@@ -4,24 +4,24 @@ The Jetty projects was started in 1995 and since then has been associated with m
 
 == Distributions
 
-=== Jetty 
-The Jetty Web Server provides an HTTP server and Servlet container capable of serving static and dynamic content either from a standalone or embedded instantiations. 
-From jetty-7 on, the jetty web-server and other core components are hosted by the Eclipse Foundation. 
+=== Jetty
+The Jetty Web Server provides an HTTP server and Servlet container capable of serving static and dynamic content either from a standalone or embedded instantiations.
+From jetty-7 on, the jetty web-server and other core components are hosted by the Eclipse Foundation.
 The project provides:
 
 * Asynchronous HTTP Server
 * Standards based Servlet Container
-* Web Sockets server
-* SPDY server
-* Asynchronous HTTP Client
-* OSGI, JNDI, JMX, JASPI, AJP support 
+* websocket server
+* http/2 server
+* Asynchronous Client (http/1.1, http/2, websocket)
+* OSGI, JNDI, JMX, JASPI, AJP support
 
-=== Hightide 
-A note about Jetty Hightide. Previous releases of Jetty (6, 7 and 8) each released an additional distribution that contained some 3rd party integrations to give a more JEE experience however with Jetty 9 we have stopped providing this integration. 
-What we have found is the vast majority of our users simply start with the jetty-distribution and then layer in whatever extra technologies they want to use, either into the distribution itself or within their web applications. 
+=== Hightide
+A note about Jetty Hightide. Previous releases of Jetty (6, 7 and 8) each released an additional distribution that contained some 3rd party integrations to give a more JEE experience however with Jetty 9 we have stopped providing this integration.
+What we have found is the vast majority of our users simply start with the jetty-distribution and then layer in whatever extra technologies they want to use, either into the distribution itself or within their web applications.
 Technologies like JNDI, JMX, and Annotations have always existed in the stock jetty-distribution to weave such things together and that will remain the case.
 
-=== Other 
+=== Other
 
 Previous releases of Jetty have been available in many forms and distributions, including the jetty-maven-plugin (which is now hosted at eclipse), Debian and RPMs from jetty@codehaus and as part of the Geronimo JEE application server from apache.
 
@@ -30,8 +30,8 @@ Previous releases of Jetty have been available in many forms and distributions, 
 
 The Jetty project has found its home in many places over the last 20+ years.
 
-=== Eclipse
-In 2009, the Jetty project moved its core components to be a project of the Eclipse Foundation, in order to improve the IP processes and broaden the licensing and community of the project. As of Jetty 9 the project has fully moved to the Eclipse Foundation.
+=== Eclipse and Github
+In 2009, the Jetty project moved its core components to be a project of the Eclipse Foundation, in order to improve the IP processes and broaden the licensing and community of the project. As of Jetty 9 the project has fully moved to the Eclipse Foundation.  Additionally, in 2016 the project moved the canonical source and issue repository to Github.
 
 === Codehaus
 In 2005, the jetty project moved to the The Codehaus for its hosting services and open source community. In 2009, after the core components of Jetty moved to eclipse, the jetty @ codehaus project continues to provide integrations, extensions and packaging of jetty.
