@@ -13,13 +13,13 @@ The latest release of all minor releases are below, earlier releases in a minor 
 | http://download.eclipse.org/jetty/9.4.1.v20170120/apidocs[apidocs]
 | https://github.com/eclipse/jetty.project/tree/jetty-9.4.1.v20170120[source]
 | Latest (JDK 8+)
-| 9.3.15.v20161220
+| 9.3.16.v20161220
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.16.v20170120/jetty-distribution-9.3.16.v20170120.zip[.zip]
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.16.v20170120/jetty-distribution-9.3.16.v20170120.tar.gz[.tgz]
 | http://download.eclipse.org/jetty/9.3.16.v20170120/apidocs[apidocs]
 | https://github.com/eclipse/jetty.project/tree/jetty-9.3.16.v20170120[source]
 | Latest (JDK 8+)
-| 9.2.20.v20161216
+| 9.2.21.v20161220
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.2.21.v20170120/jetty-distribution-9.2.21.v20170120.zip[.zip]
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.2.21.v20170120/jetty-distribution-9.2.21.v20170120.tar.gz[.tgz]
 | http://download.eclipse.org/jetty/9.2.21.v20170120/apidocs[apidocs]
