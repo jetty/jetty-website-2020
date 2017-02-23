@@ -7,7 +7,7 @@ The latest release of all minor releases are below, earlier releases in a minor 
 [width="100%",cols="30%,10%,10%,10%,10%,30%",options="header",]
 |=======================================================================
 | Release | | | | |
-| 9.4.1.v20170120
+| 9.4.2.v20170220
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.2.v20170220/jetty-distribution-9.4.2.v20170220.zip[.zip]
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.2.v20170220/jetty-distribution-9.4.2.v20170220.tar.gz[.tgz]
 | http://download.eclipse.org/jetty/9.4.2.v20170220/apidocs[apidocs]
