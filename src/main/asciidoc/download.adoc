@@ -1,4 +1,4 @@
-
+`
 == Jetty Downloads
 
 The latest release of all minor releases are below, earlier releases in a minor release version are available in Maven Central.
@@ -7,16 +7,16 @@ The latest release of all minor releases are below, earlier releases in a minor 
 [width="100%",cols="30%,10%,10%,10%,10%,30%",options="header",]
 |=======================================================================
 | Release | | | | |
-| 9.4.3.v20170317
-| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.3.v20170317/jetty-distribution-9.4.3.v20170317.zip[.zip]
-| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.3.v20170317/jetty-distribution-9.4.3.v20170317.tar.gz[.tgz]
+| 9.4.4.v20170414
+| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.4.v20170414/jetty-distribution-9.4.4.v20170414.zip[.zip]
+| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.4.v20170414/jetty-distribution-9.4.4.v20170414.tar.gz[.tgz]
 | http://download.eclipse.org/jetty/9.4.3.v20170317/apidocs[apidocs]
-| https://github.com/eclipse/jetty.project/tree/jetty-9.4.3.v20170317[source]
+| https://github.com/eclipse/jetty.project/tree/jetty-9.4.4.v20170414[source]
 | Latest (JDK 8+)
 | 9.3.18.v20170406
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.18.v20170406/jetty-distribution-9.3.18.v20170406.zip[.zip]
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.18.v20170406/jetty-distribution-9.3.18.v20170406.tar.gz[.tgz]
-| http://download.eclipse.org/jetty/9.3.18.v20170406/apidocs[apidocs]
+| http://www.eclipse.org/jetty/javadoc/9.3.18.v20170406/[apidocs]
 | https://github.com/eclipse/jetty.project/tree/jetty-9.3.18.v20170406[source]
 | Latest (JDK 8+)
 | 9.2.21.v20170120
@@ -48,3 +48,4 @@ These are not for general use and are provided strictly for OSGI users.
 * http://download.eclipse.org/jetty/updates/jetty-bundles-9.x[Composite Jetty-9 P2 repo]
 * http://download.eclipse.org/jetty/updates/jetty-bundles-8.x[Composite Jetty-8 P2 repo]
 * http://download.eclipse.org/jetty/updates/jetty-bundles-7.x[Composite Jetty-7 P2 repo]
+`
