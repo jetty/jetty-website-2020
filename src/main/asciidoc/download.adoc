@@ -9,7 +9,7 @@ The latest release of all minor releases are below, earlier releases in a minor 
 | 9.4.4.v20170414
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.4.v20170414/jetty-distribution-9.4.4.v20170414.zip[.zip]
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.4.v20170414/jetty-distribution-9.4.4.v20170414.tar.gz[.tgz]
-| http://download.eclipse.org/jetty/9.4.3.v20170317/apidocs[apidocs]
+| http://www.eclipse.org/jetty/javadoc/9.4.4.v20170414/[apidocs]
 | https://github.com/eclipse/jetty.project/tree/jetty-9.4.4.v20170414[source]
 | Latest (JDK 8+)
 | 9.3.18.v20170406
