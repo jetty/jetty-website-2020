@@ -25,6 +25,10 @@
       <url>/jetty/documentation</url>
     </link>
     <link>
+      <title>API Documentation</title>
+      <url>/jetty/apidocs.html</url>
+    </link>
+    <link>
       <title>Downloads</title>
       <url>/jetty/download.html</url>
     </link>
@@ -39,10 +43,6 @@
     <link>
       <title>Mailing Lists</title>
       <url>/jetty/mailinglists.html</url>
-    </link>
-    <link>
-      <title>JavaDoc</title>
-      <url>http://download.eclipse.org/jetty/stable-9/apidocs/</url>
     </link>
     <link>
       <title>Tools</title>
@@ -87,6 +87,10 @@
     <link>
       <title>Current Documentation</title>
       <url>/jetty/documentation/current</url>
+    </link>
+    <link>
+      <title>API Documentation</title>
+      <url>/jetty/apidocs.html</url>
     </link>
     <link>
       <title>Download</title>

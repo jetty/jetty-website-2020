@@ -1,0 +1,30 @@
+== Jetty API Documentation
+
+The latest API documentation of all minor releases are below. Earlier release versions are available in Maven Central.
+
+* link:/jetty/documentation/current[Current API Documentation]
+
+.empty
+[width="100%",cols="30%,10%,10%",options="header",]
+|=======================================================================
+| Release | |
+| 9.4.4.v20170414
+| http://www.eclipse.org/jetty/javadoc/9.4.4.v20170414/[apidocs]
+| https://github.com/eclipse/jetty.project/tree/jetty-9.4.4.v20170414[source]
+| 9.3.18.v20170406
+| http://www.eclipse.org/jetty/javadoc/9.3.18.v20170406/[apidocs]
+| https://github.com/eclipse/jetty.project/tree/jetty-9.3.18.v20170406[source]
+| 9.2.21.v20170120
+| http://download.eclipse.org/jetty/9.2.21.v20170120/apidocs[apidocs]
+| http://download.eclipse.org/jetty/9.2.21.v20170120/xref[xref]
+| 8.1.21.v20160908
+| http://download.eclipse.org/jetty/8.1.17.v20150415/apidocs[apidocs]
+| http://download.eclipse.org/jetty/8.1.17.v20150415/xref[xref]
+| 7.6.21.v20160908
+| http://download.eclipse.org/jetty/7.6.17.v20150415/apidocs[apidocs]
+| http://download.eclipse.org/jetty/7.6.17.v20150415/xref[xref]
+|=======================================================================
+
+Note: The canonical repository for Jetty is Maven Central.
+All releases are always available there first and this download page may lag a bit update wise as post release resources are put into place.
+You can always browse for Jetty releases http://central.maven.org/maven2/org/eclipse/jetty/[here].

@@ -47,4 +47,3 @@ These are not for general use and are provided strictly for OSGI users.
 * http://download.eclipse.org/jetty/updates/jetty-bundles-9.x[Composite Jetty-9 P2 repo]
 * http://download.eclipse.org/jetty/updates/jetty-bundles-8.x[Composite Jetty-8 P2 repo]
 * http://download.eclipse.org/jetty/updates/jetty-bundles-7.x[Composite Jetty-7 P2 repo]
-`
