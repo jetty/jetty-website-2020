@@ -89,8 +89,8 @@
       <url>/jetty/documentation/current</url>
     </link>
     <link>
-      <title>API Documentation</title>
-      <url>/jetty/apidocs.html</url>
+      <title>Current API Documentation</title>
+      <url>/jetty/javadoc/current</url>
     </link>
     <link>
       <title>Download</title>

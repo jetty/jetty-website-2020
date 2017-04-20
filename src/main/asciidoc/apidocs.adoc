@@ -2,10 +2,10 @@
 
 The latest API documentation of all minor releases are below. Earlier release versions are available in Maven Central.
 
-* link:/jetty/documentation/current[Current API Documentation]
+* link:/jetty/javadoc/current[Current API Documentation]
 
 .empty
-[width="100%",cols="30%,10%,10%",options="header",]
+[width="100%",cols="30%,20%,20%",options="header",]
 |=======================================================================
 | Release | |
 | 9.4.4.v20170414
