@@ -6,17 +6,17 @@ The latest release of all minor releases are below, earlier releases in a minor 
 [width="100%",cols="30%,10%,10%,10%,10%,30%",options="header",]
 |=======================================================================
 | Release | | | | |
-| 9.4.4.v20170414
-| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.4.v20170414/jetty-distribution-9.4.4.v20170414.zip[.zip]
-| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.4.v20170414/jetty-distribution-9.4.4.v20170414.tar.gz[.tgz]
-| http://www.eclipse.org/jetty/javadoc/9.4.4.v20170414/[apidocs]
-| https://github.com/eclipse/jetty.project/tree/jetty-9.4.4.v20170414[source]
+| 9.4.5.v20170502
+| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.5.v20170502/jetty-distribution-9.4.5.v20170502.zip[.zip]
+| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.5.v20170502/jetty-distribution-9.4.5.v20170502.tar.gz[.tgz]
+| http://www.eclipse.org/jetty/javadoc/9.4.5.v20170502/[apidocs]
+| https://github.com/eclipse/jetty.project/tree/jetty-9.4.5.v20170502[source]
 | Latest (JDK 8+)
-| 9.3.18.v20170406
-| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.18.v20170406/jetty-distribution-9.3.18.v20170406.zip[.zip]
-| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.18.v20170406/jetty-distribution-9.3.18.v20170406.tar.gz[.tgz]
-| http://www.eclipse.org/jetty/javadoc/9.3.18.v20170406/[apidocs]
-| https://github.com/eclipse/jetty.project/tree/jetty-9.3.18.v20170406[source]
+| 9.3.19.v20170502
+| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.19.v20170502/jetty-distribution-9.3.19.v20170502.zip[.zip]
+| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.19.v20170502/jetty-distribution-9.3.19.v20170502.tar.gz[.tgz]
+| http://www.eclipse.org/jetty/javadoc/9.3.19.v20170502/[apidocs]
+| https://github.com/eclipse/jetty.project/tree/jetty-9.3.19.v20170502[source]
 | Latest (JDK 8+)
 | 9.2.21.v20170120
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.2.21.v20170120/jetty-distribution-9.2.21.v20170120.zip[.zip]
