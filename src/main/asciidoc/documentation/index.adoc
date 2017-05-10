@@ -18,6 +18,6 @@ Generally speaking the documentation for the latest release is most useful howev
 ++++
 
 == Prior Versions
-Documentation for the most recent versions of prior Jetty releases can be found link:previousversions.html[on our prior versions page.]
+Documentation for the most recent versions of prior Jetty releases can be found link:/jetty/previousversions.html[on our prior versions page.]
 
 Note: The canonical repository for Jetty is Maven Central.  All releases are always available there first and this page may lag a bit update wise as post release resources are put into place.  You can always browse for Jetty releases http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution[here].
