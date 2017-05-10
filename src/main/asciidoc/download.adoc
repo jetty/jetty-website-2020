@@ -13,7 +13,6 @@ The latest release of Jetty is below, earlier minor release versions are availab
 | https://github.com/eclipse/jetty.project/tree/jetty-9.4.5.v20170502[source]
 |=======================================================================
 
-
 == Prior Versions
 The most recent versions of prior Jetty releases can be found link:previousversions.html[here, with their associated documentation.]
 
