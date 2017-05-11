@@ -6,7 +6,7 @@ Earlier releases in a minor release version are available in http://central.mave
 .empty
 [width="100%",cols="30%,10%,10%,10%,10%,10%,30%",options="header",]
 |=======================================================================
-| Release | | | | | |
+| Release | | | | | | Note
 | 9.3.19.v20170502
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.19.v20170502/jetty-distribution-9.3.19.v20170502.zip[.zip]
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.19.v20170502/jetty-distribution-9.3.19.v20170502.tar.gz[.tgz]
@@ -34,7 +34,7 @@ Earlier releases in a minor release version are available in http://central.mave
 | http://archive.eclipse.org/jetty/9.0.7.v20131107/apidocs/index.html[apidocs]
 | http://archive.eclipse.org/jetty/9.0.7.v20131107/xref/index.html[xref]
 | link:/jetty/documentation/9.0.6.v20130930[documentation]
-|
+| EOL
 | 8.1.21.v20160908
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/8.1.21.v20160908/jetty-distribution-8.1.21.v20160908.zip[.zip]
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/8.1.21.v20160908/jetty-distribution-8.1.21.v20160908.tar.gz[.tgz]
@@ -52,3 +52,11 @@ Earlier releases in a minor release version are available in http://central.mave
 |=======================================================================
 
 Note: The canonical repository for Jetty is Maven Central.  All releases are always available there first and this download page may lag a bit update wise as post release resources are put into place.  You can always browse for Jetty releases http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution[here].
+
+=== Jetty P2 Repositories
+
+These are not for general use and are provided strictly for OSGI users.
+
+* http://download.eclipse.org/jetty/updates/jetty-bundles-9.x[Composite Jetty-9 P2 repo]
+* http://download.eclipse.org/jetty/updates/jetty-bundles-8.x[Composite Jetty-8 P2 repo]
+* http://download.eclipse.org/jetty/updates/jetty-bundles-7.x[Composite Jetty-7 P2 repo]
