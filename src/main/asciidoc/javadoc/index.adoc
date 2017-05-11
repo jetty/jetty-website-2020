@@ -1,6 +1,6 @@
 == Jetty API Documentation
 
-The latest API documentation of all minor releases are below. Earlier release versions are available in Maven Central.
+The latest API documentation of all minor releases are below. Earlier release versions are available in http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution[Maven Central.]
 
 * link:/jetty/javadoc/current[Current API Documentation]
 
