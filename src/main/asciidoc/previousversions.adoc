@@ -7,12 +7,12 @@ Earlier releases in a minor release version are available in http://central.mave
 [width="100%",cols="30%,10%,10%,10%,10%,10%,30%",options="header",]
 |=======================================================================
 | Release | | | | | | Note
-| 9.3.19.v20170502
-| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.19.v20170502/jetty-distribution-9.3.19.v20170502.zip[.zip]
-| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.19.v20170502/jetty-distribution-9.3.19.v20170502.tar.gz[.tgz]
-| http://www.eclipse.org/jetty/javadoc/9.3.19.v20170502/[apidocs]
-| https://github.com/eclipse/jetty.project/tree/jetty-9.3.19.v20170502[source]
-| http://central.maven.org/maven2/org/eclipse/jetty/jetty-documentation/9.4.5.v20170502/jetty-documentation-9.4.5.v20170502-html.zip[documentation]
+| 9.3.20.v20170531
+| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.20.v20170531/jetty-distribution-9.3.20.v20170531.zip[.zip]
+| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.20.v20170531/jetty-distribution-9.3.20.v20170531.tar.gz[.tgz]
+| http://www.eclipse.org/jetty/javadoc/9.3.20.v20170531/[apidocs]
+| https://github.com/eclipse/jetty.project/tree/jetty-9.3.20.v20170531[source]
+| link:/jetty/documentation/9.3.20.v20170531[documentation]
 | Java 8+
 | 9.2.21.v20170120
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.2.21.v20170120/jetty-distribution-9.2.21.v20170120.zip[.zip]
@@ -51,7 +51,7 @@ Earlier releases in a minor release version are available in http://central.mave
 | EOL
 |=======================================================================
 
-Note: The canonical repository for Jetty is Maven Central.  All releases are always available there first and this download page may lag a bit update wise as post release resources are put into place.  You can always browse for Jetty releases http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution[here].
+*Note:* The canonical repository for Jetty is Maven Central.  All releases are always available there first and this download page may lag a bit update wise as post release resources are put into place.  You can always browse for Jetty releases http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution[here].
 
 === Jetty P2 Repositories
 
