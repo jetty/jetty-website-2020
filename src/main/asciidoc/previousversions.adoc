@@ -51,6 +51,12 @@ Earlier releases in a minor release version are available in http://central.mave
 | EOL
 |=======================================================================
 
+____
+[NOTE]
+Release notes can be found in the `VERSION.txt` file included with the distribution.
+They can also be located on the link:https://github.com/eclipse/jetty.project/releases[GitHub Releases] page for the Jetty project.
+____
+
 *Note:* The canonical repository for Jetty is Maven Central.  All releases are always available there first and this download page may lag a bit update wise as post release resources are put into place.  You can always browse for Jetty releases http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution[here].
 
 === Jetty P2 Repositories
