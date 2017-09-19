@@ -8,9 +8,9 @@ The latest API documentation of all minor releases are below. Earlier release ve
 [width="100%",cols="30%,20%,20%",options="header",]
 |=======================================================================
 | Release | |
-| 9.4.6.v20170531
-| http://www.eclipse.org/jetty/javadoc/9.4.6.v20170531/[apidocs]
-| https://github.com/eclipse/jetty.project/tree/jetty-9.4.6.v20170531[source]
+| 9.4.7.v20170914
+| http://www.eclipse.org/jetty/javadoc/99.4.7.v20170914/[apidocs]
+| https://github.com/eclipse/jetty.project/tree/jetty-9.4.7.v20170914[source]
 | 9.3.20.v20170531
 | http://www.eclipse.org/jetty/javadoc/9.3.20.v20170531/[apidocs]
 | https://github.com/eclipse/jetty.project/tree/jetty-9.3.20.v20170531[source]
