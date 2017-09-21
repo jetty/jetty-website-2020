@@ -9,19 +9,19 @@ The latest API documentation of all minor releases are below. Earlier release ve
 |=======================================================================
 | Release | |
 | 9.4.7.v20170914
-| http://www.eclipse.org/jetty/javadoc/9.4.7.v20170914/[apidocs]
+| http://www.eclipse.org/jetty/javadoc/9.4.7.v20170914/index.html?overview-summary.html[apidocs]
 | https://github.com/eclipse/jetty.project/tree/jetty-9.4.7.v20170914[source]
 | 9.3.21.v20170918
-| http://www.eclipse.org/jetty/javadoc/9.3.21.v20170918/[apidocs]
+| http://www.eclipse.org/jetty/javadoc/9.3.21.v20170918/index.html?overview-summary.html[apidocs]
 | https://github.com/eclipse/jetty.project/tree/jetty-9.3.21.v20170918[source]
 | 9.2.22.v20170606
-| http://download.eclipse.org/jetty/9.2.22.v20170606/apidocs[apidocs]
+| http://download.eclipse.org/jetty/9.2.22.v20170606/apidocs/index.html?overview-summary.html[apidocs]
 | https://github.com/eclipse/jetty.project/tree/jetty-9.2.22.v20170606[source]
 | 8.1.21.v20160908
-| http://download.eclipse.org/jetty/8.1.17.v20150415/apidocs[apidocs]
+| http://download.eclipse.org/jetty/8.1.17.v20150415/apidocs/index.html?overview-summary.html[apidocs]
 | http://download.eclipse.org/jetty/8.1.17.v20150415/xref[xref]
 | 7.6.21.v20160908
-| http://download.eclipse.org/jetty/7.6.17.v20150415/apidocs[apidocs]
+| http://download.eclipse.org/jetty/7.6.17.v20150415/apidocs/index.html?overview-summary.html[apidocs]
 | http://download.eclipse.org/jetty/7.6.17.v20150415/xref[xref]
 |=======================================================================
 

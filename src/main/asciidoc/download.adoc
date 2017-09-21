@@ -10,7 +10,7 @@ The latest release of Jetty is below, earlier minor release versions are availab
 | 9.4.7.v20170914
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.7.v20170914/jetty-distribution-9.4.7.v20170914.zip[.zip]
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.7.v20170914/jetty-distribution-9.4.7.v20170914.tar.gz[.tgz]
-| http://www.eclipse.org/jetty/javadoc/9.4.7.v20170914/[apidocs]
+| http://www.eclipse.org/jetty/javadoc/9.4.7.v20170914/index.html?overview-summary.html[apidocs]
 | https://github.com/eclipse/jetty.project/tree/jetty-9.4.7.v20170914[source]
 |=======================================================================
 
