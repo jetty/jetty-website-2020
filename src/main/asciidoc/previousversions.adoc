@@ -12,7 +12,7 @@ Earlier releases in a minor release version are available in http://central.mave
 | 9.3.21.v20170918
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.21.v20170918/jetty-distribution-9.3.21.v20170918.zip[.zip]
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.21.v20170918/jetty-distribution-9.3.21.v20170918.tar.gz[.tgz]
-| http://www.eclipse.org/jetty/javadoc/9.3.20.v20170531/[apidocs]
+| http://www.eclipse.org/jetty/javadoc/9.3.21.v20170918/[apidocs]
 | https://github.com/eclipse/jetty.project/tree/jetty-9.3.21.v20170918[source]
 | link:/jetty/documentation/9.3.21.v20170918[documentation]
 | Java 8+

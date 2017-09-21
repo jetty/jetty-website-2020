@@ -196,8 +196,8 @@
               <copy todir="target/docbkx/html/documentation/9.4.7.v20170914">
                 <fileset dir="target/documentation-resource/9.4.7.v20170914/9.4.7.v20170914"/>
               </copy>
-              <copy todir="target/docbkx/html/documentation/9.3.20.v20170531">
-                <fileset dir="target/documentation-resource/9.3.20.v20170531/9.3.20.v20170531"/>
+              <copy todir="target/docbkx/html/documentation/9.3.21.v20170918">
+                <fileset dir="target/documentation-resource/9.3.21.v20170918/9.3.21.v20170918"/>
               </copy>
               <copy todir="target/docbkx/html/documentation/current">
                 <fileset dir="target/documentation-resource/9.4.7.v20170914/9.4.7.v20170914"/>
