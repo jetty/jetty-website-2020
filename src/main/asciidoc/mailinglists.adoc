@@ -1,7 +1,7 @@
 = Mailing Lists
 
-Mailing lists are a primary communication channel with the Jetty development team. 
-If you are interested in getting announcements for new versions, or want to participate in discussions of development or integration topics, you can subscribe to one of the following mailing lists. 
+Mailing lists are a primary communication channel with the Jetty development team.
+If you are interested in getting announcements for new versions, or want to participate in discussions of development or integration topics, you can subscribe to one of the following mailing lists.
 You may also track svn commits for the Jetty project.
 
 == Mailing Lists on Eclipse
@@ -9,20 +9,14 @@ You may also track svn commits for the Jetty project.
 * https://dev.eclipse.org/mailman/listinfo/jetty-announce[jetty-announce@eclipse.org] - A mail list for the Jetty team to announce new versions of Jetty and events related to Jetty. Subscribe to this list if you are interested in this information. Please be aware that only Jetty committers can make announcements, so all other subscribers please do not post to this list.
 ** https://dev.eclipse.org/mailman/listinfo/jetty-announce[Subscribe/unsubscribe] instructions
 ** http://dev.eclipse.org/mhonarc/lists/jetty-announce/maillist.html[Mailing list archive]
-* https://dev.eclipse.org/mailman/listinfo/jetty-users[jetty-users@eclipse.org] - A mail list for user discussion. 
+* https://dev.eclipse.org/mailman/listinfo/jetty-users[jetty-users@eclipse.org] - A mail list for user discussion.
 ** https://dev.eclipse.org/mailman/listinfo/jetty-users[Subscribe/unsubscribe] instructions
 ** http://dev.eclipse.org/mhonarc/lists/jetty-users/maillist.html[Mailing list archive]
-* https://dev.eclipse.org/mailman/listinfo/jetty-dev[jetty-dev@eclipse.org] - A mail list for developer discussion. 
+* https://dev.eclipse.org/mailman/listinfo/jetty-dev[jetty-dev@eclipse.org] - A mail list for developer discussion.
 It's a place, where Jetty committers, contributors and integrators discuss all topics related to project development.
 ** https://dev.eclipse.org/mailman/listinfo/jetty-dev[Subscribe/unsubscribe] instructions
 ** http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html[Mailing list archive]
 ** http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.rss[RSS Feed]
-* https://dev.eclipse.org/mailman/listinfo/jetty-commit[jetty-commit@eclipse.org] - A mail list for svn commit messages. Posts to this list will be ignored.
-** https://dev.eclipse.org/mailman/listinfo/jetty-commit[Subscribe/unsubscribe] instructions
-** http://dev.eclipse.org/mhonarc/lists/jetty-commit/maillist.html[Mailing list archive]
-* http://dev.eclipse.org/mhonarc/lists/jetty-commit/maillist.html[jetty-build@eclipse.org] - A mail list for jetty build notifications. 
-** https://dev.eclipse.org/mailman/listinfo/jetty-build[Subscribe/unsubscribe] instructions
-** http://dev.eclipse.org/mhonarc/lists/jetty-build/maillist.html[Mailing list archive]
 
 == Frequently Asked Questions
 
