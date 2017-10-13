@@ -2,11 +2,11 @@
 <website-metadata>
   <left-column>
     <separator>
-      <title>Jetty</title>
+      <title>Eclipse Jetty</title>
       <url>/jetty/index.html</url>
     </separator>
     <link>
-      <title>About Jetty</title>
+      <title>About Eclipse Jetty</title>
       <url>/jetty/about.html</url>
     </link>
     <link>

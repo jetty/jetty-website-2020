@@ -1,4 +1,4 @@
-== Previous Jetty Version Downloads
+== Previous Eclipse Jetty Version Downloads
 
 The most recent release of recent previous versions are below.
 Earlier releases in a minor release version are available in http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution[Maven Central.]

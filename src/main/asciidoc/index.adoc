@@ -1,25 +1,24 @@
 :no title:
 
-Jetty provides a Web server and javax.servlet container, plus support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations. 
+Elcipse Jetty provides a Web server and javax.servlet container, plus support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations.
 These components are open source and available for commercial use and distribution.
 
-Jetty is used in a wide variety of projects and products, both in development and production. 
-Jetty can be easily embedded in devices, tools, frameworks, application servers, and clusters. 
+Eclipse Jetty is used in a wide variety of projects and products, both in development and production.
+Jetty can be easily embedded in devices, tools, frameworks, application servers, and clusters.
 See the Jetty Powered page for more uses of Jetty.
 
-The current recommended version for use is Jetty 9 which can be obtained here: Jetty Downloads. 
-Also available are the latest maintenance releases of Jetty 8 and Jetty 7.
+The current recommended version for use is Jetty 9 which can be obtained on the link:#eclipse-jetty-download[Jetty Downloads page.]
+Also available are the latest maintenance releases of Jetty 8 and Jetty 7,
 
-The Jetty project has been hosted at the Eclipse Foundation since 2009. 
-Prior releases of Jetty have existed in part or completely under the Jetty project at the The Codehaus and Sourceforge before that. 
+The Jetty project has been hosted at the Eclipse Foundation since 2009.
+Prior releases of Jetty have existed in part or completely under the Jetty project at the The Codehaus and Sourceforge before that.
 See the link:/jetty/about.html[About] page for more information about the history of Jetty.
 
 .empty
 [cols="1a,1a", frame="none", options="header",]
 |=========================================================
 | Features	| Jetty Powered
-| 
-* Jetty Powered
+|
 * Full-featured and standards-based
 * Open source and commercially usable
 * Flexible and extensible
@@ -31,7 +30,7 @@ See the link:/jetty/about.html[About] page for more information about the histor
 |
 * Large clusters, such as the Yahoo Hadoop Cluster
 * Cloud computing, such as the Google AppEngine
-* SaaS, such as Yahoo! Zimbra
+* SaaS, such as Yahoo! and Zimbra
 * Application Servers, such as Apache Geronimo
 * Frameworks, such as GWT
 * Tools, such as the Eclipse IDE

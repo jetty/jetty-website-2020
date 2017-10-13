@@ -1,6 +1,7 @@
-== Jetty Downloads
+[[[eclipse-jetty-download]]]
+== Eclipse Jetty Downloads
 
-The latest release of Jetty is below, earlier minor release versions are available in http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution[Maven Central.]
+The latest release of Eclipse Jetty is below, earlier minor release versions are available in http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution[Maven Central.]
 
 
 .empty

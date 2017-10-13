@@ -1,7 +1,7 @@
 :no title:
 
-As a small, fast, embeddable web server and servlet container Jetty is used by a multitude of both commercial and open source products. 
-These Jetty Powered products illustrate Jetty's versatility and the diversity of its community.
+As a small, fast, embeddable web server and servlet container, Eclipse Jetty is used by a multitude of both commercial and open source products.
+These Eclipse Jetty-Powered products illustrate Jetty's versatility and the diversity of its community.
 
 Send your submission with a product logo (if you have one) and brief text describing your product to powered@mortbay.com if you would like your product or project listed here.
 

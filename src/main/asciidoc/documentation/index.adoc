@@ -1,11 +1,11 @@
 
-== Jetty Documentation
+== Eclipse Jetty Documentation
 
-The documentation is for Jetty is a continual work in progress.
+The documentation is for Eclipse Jetty is a continual work in progress.
 
 * link:/jetty/documentation/current[Current Release Documentation]
 
-Jetty documentation is a community effort and is bundled in with the link:http://github.com/eclipse/jetty.project[Jetty source] on GitHub.
+Documentation for Eclipse Jetty is a community effort and is bundled in with the link:http://github.com/eclipse/jetty.project[Jetty source] on GitHub.
 We invite contributors to fork the Jetty repository and contribute!
 More information can be found in the link:/jetty/documentation/current/contributing-documentation.html[Contributing Documentation] section.
 
