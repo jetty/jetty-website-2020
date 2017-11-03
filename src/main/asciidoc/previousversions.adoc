@@ -12,8 +12,8 @@ Earlier releases in a minor release version are available in http://central.mave
 | 9.3.22.v20171030
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.22.v20171030/jetty-distribution-9.3.22.v20171030.zip[.zip]
 | http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.22.v20171030/jetty-distribution-9.3.22.v20171030.tar.gz[.tgz]
-| http://www.eclipse.org/jetty/javadoc/9.3.21.v20170918/index.html?overview-summary.html[apidocs]
-| https://github.com/eclipse/jetty.project/tree/jetty-9.3.21.v20170918[source]
+| http://www.eclipse.org/jetty/javadoc/9.3.22.v20171030/index.html?overview-summary.html[apidocs]
+| https://github.com/eclipse/jetty.project/tree/9.3.22.v20171030[source]
 | link:/jetty/documentation/9.3.22.v20171030[documentation]
 | Java 8+
 | 9.2.22.v20170606
