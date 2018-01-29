@@ -25,8 +25,8 @@ The most recent versions of prior Jetty releases can be found link:previousversi
 
 Note: The canonical repository for Jetty is Maven Central.  All releases are always available there first and this download page may lag a bit update wise as post release resources are put into place.  You can always browse for Jetty releases http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution[here].
 
-=== Jetty P2 Repositories
+=== Jetty P2 Provisioning
 
 These are not for general use and are provided strictly for OSGI users.
 
-* http://download.eclipse.org/jetty/updates/jetty-bundles-9.x[Composite Jetty-9 P2 repo]
+* http://download.eclipse.org/jetty/updates/jetty-bundles-9.x[Composite Jetty 9 P2 Provisioning]
