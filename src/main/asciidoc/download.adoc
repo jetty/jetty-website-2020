@@ -27,6 +27,6 @@ Note: The canonical repository for Jetty is Maven Central.  All releases are alw
 
 === Jetty P2 Provisioning
 
-These are not for general use and are provided strictly for OSGI users.
+This provisioning address is not for general use and are provided strictly for OSGI users.
 
-* http://download.eclipse.org/jetty/updates/jetty-bundles-9.x[Composite Jetty 9 P2 Provisioning]
+* Composite Jetty 9 P2 Provisioning: \http://download.eclipse.org/jetty/updates/jetty-bundles-9.x

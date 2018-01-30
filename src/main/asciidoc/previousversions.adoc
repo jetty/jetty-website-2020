@@ -59,8 +59,8 @@ Release notes are also made available on the link:https://www.eclipse.org/jetty/
 
 === Jetty P2 Provisioning
 
-These are not for general use and are provided strictly for OSGI users.
+These provisioning addresses are not for general use and are provided strictly for OSGI users.
 
-* http://download.eclipse.org/jetty/updates/jetty-bundles-9.x[Composite Jetty 9 P2 Provisioning]
-* http://download.eclipse.org/jetty/updates/jetty-bundles-8.x[Composite Jetty 8 P2 Provisioning]
-* http://download.eclipse.org/jetty/updates/jetty-bundles-7.x[Composite Jetty 7 P2 Provisioning]
+* Composite Jetty 9 P2 Provisioning - \http://download.eclipse.org/jetty/updates/jetty-bundles-9.x
+* Composite Jetty 8 P2 Provisioning - \http://download.eclipse.org/jetty/updates/jetty-bundles-8.x
+* Composite Jetty 7 P2 Provisioning - \http://download.eclipse.org/jetty/updates/jetty-bundles-7.x
