@@ -94,9 +94,11 @@
                     <include name="**/*.dot"/>
                   </fileset>
                 </copy>
+                <!--
                 <copy todir="target/docbkx/html">
                   <fileset dir="src/main/html-resources/" />
                 </copy>
+              -->
               </preProcess>
             </configuration>
           </execution>
