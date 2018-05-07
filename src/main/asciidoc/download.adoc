@@ -9,11 +9,11 @@ The latest release of Eclipse Jetty is below, earlier minor release versions are
 [width="100%",cols="30%,10%,10%,10%,10%",options="header",]
 |=======================================================================
 | Release | | | |
-| 9.4.9.v20180320
-| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.9.v20180320/jetty-distribution-9.4.9.v20180320.zip[.zip]
-| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.9.v20180320/jetty-distribution-9.4.9.v20180320.tar.gz[.tgz]
+| 9.4.10.v20180503
+| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.10.v20180503/jetty-distribution-9.4.10.v20180503.zip[.zip]
+| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.10.v20180503/jetty-distribution-9.4.10.v20180503.tar.gz[.tgz]
 | http://www.eclipse.org/jetty/javadoc/9.4.9.v20180320/index.html?overview-summary.html[apidocs]
-| https://github.com/eclipse/jetty.project/tree/jetty-9.4.9.v20180320[source]
+| https://github.com/eclipse/jetty.project/tree/jetty-9.4.10.v20180503[source]
 |=======================================================================
 
 
