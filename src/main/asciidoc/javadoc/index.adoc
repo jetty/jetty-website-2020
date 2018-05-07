@@ -9,7 +9,7 @@ The latest API documentation for the latest minor versions of Eclipse Jetty is b
 |=======================================================================
 | Release | |
 | 9.4.10.v20180503
-| http://www.eclipse.org/jetty/javadoc/9.4.9.v20180320/index.html?overview-summary.html[apidocs]
+| http://www.eclipse.org/jetty/javadoc/9.4.10.v20180503/index.html?overview-summary.html[apidocs]
 | https://github.com/eclipse/jetty.project/tree/jetty-9.4.10.v20180503[source]
 | 9.3.23.v20180228
 | http://www.eclipse.org/jetty/javadoc/9.3.23.v20180228/index.html?overview-summary.html[apidocs]
