@@ -1,6 +1,6 @@
 == Eclipse Jetty API Documentation
 
-The latest API documentation for the latest minor versions of Eclipse Jetty is below. Earlier release versions are available in http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution[Maven Central.]
+The latest API documentation for the latest minor versions of Eclipse Jetty is below. Earlier release versions are available in https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution[Maven Central.]
 
 * link:/jetty/javadoc/current[Current API Documentation]
 
@@ -27,4 +27,4 @@ The latest API documentation for the latest minor versions of Eclipse Jetty is b
 
 Note: The canonical repository for Eclipse Jetty is Maven Central.
 All releases are always available there first and this download page may lag a bit update wise as post release resources are put into place.
-You can always browse for Jetty releases http://central.maven.org/maven2/org/eclipse/jetty/[here].
+You can always browse for Jetty releases https://repo1.maven.org/maven2/org/eclipse/jetty/[here].

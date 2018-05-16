@@ -2,7 +2,7 @@
 
 == Eclipse Jetty Downloads
 
-The latest release of Eclipse Jetty is below, earlier minor release versions are available in http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution[Maven Central.]
+The latest release of Eclipse Jetty is below, earlier minor release versions are available in https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution[Maven Central.]
 
 
 .empty
@@ -10,8 +10,8 @@ The latest release of Eclipse Jetty is below, earlier minor release versions are
 |=======================================================================
 | Release | | | |
 | 9.4.10.v20180503
-| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.10.v20180503/jetty-distribution-9.4.10.v20180503.zip[.zip]
-| http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.10.v20180503/jetty-distribution-9.4.10.v20180503.tar.gz[.tgz]
+| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.10.v20180503/jetty-distribution-9.4.10.v20180503.zip[.zip]
+| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.10.v20180503/jetty-distribution-9.4.10.v20180503.tar.gz[.tgz]
 | http://www.eclipse.org/jetty/javadoc/9.4.10.v20180503/index.html?overview-summary.html[apidocs]
 | https://github.com/eclipse/jetty.project/tree/jetty-9.4.10.v20180503[source]
 |=======================================================================
@@ -23,7 +23,7 @@ Release notes are also made available on the link:https://www.eclipse.org/jetty/
 === Prior Versions
 The most recent versions of prior Jetty releases can be found link:previousversions.html[here, with their associated documentation.]
 
-Note: The canonical repository for Jetty is Maven Central.  All releases are always available there first and this download page may lag a bit update wise as post release resources are put into place.  You can always browse for Jetty releases http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution[here].
+Note: The canonical repository for Jetty is Maven Central.  All releases are always available there first and this download page may lag a bit update wise as post release resources are put into place.  You can always browse for Jetty releases https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution[here].
 
 === Jetty P2 Provisioning
 
