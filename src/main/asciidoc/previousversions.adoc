@@ -9,12 +9,12 @@ Earlier releases in a minor release version are available in https://repo1.maven
 [width="100%",cols="30%,10%,10%,10%,10%,10%,30%",options="header",]
 |=======================================================================
 | Release | | | | | | Note
-| 9.3.23.v20180228
-| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.23.v20180228/jetty-distribution-9.3.23.v20180228.zip[.zip]
-| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.23.v20180228/jetty-distribution-9.3.23.v20180228.tar.gz[.tgz]
-| http://www.eclipse.org/jetty/javadoc/9.3.23.v20180228/index.html?overview-summary.html[apidocs]
-| https://github.com/eclipse/jetty.project/tree/9.3.23.v20180228[source]
-| link:/jetty/documentation/9.3.23.v20180228[documentation]
+| 9.3.24.v20180605
+| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.24.v20180605/jetty-distribution-9.3.24.v20180605.zip[.zip]
+| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.24.v20180605/jetty-distribution-9.3.24.v20180605.tar.gz[.tgz]
+| http://www.eclipse.org/jetty/javadoc/9.3.24.v20180605/index.html?overview-summary.html[apidocs]
+| https://github.com/eclipse/jetty.project/tree/9.3.24.v20180605[source]
+| link:/jetty/documentation/9.3.24.v20180605[documentation]
 | Java 8+
 | 9.2.24.v20180105
 | https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.2.24.v20180105/jetty-distribution-9.2.24.v20180105.zip[.zip]
