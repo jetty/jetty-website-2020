@@ -22,7 +22,7 @@ Earlier releases in a minor release version are available in https://repo1.maven
 | http://www.eclipse.org/jetty/javadoc/9.2.22.v20170606/index.html?overview-summary.html[apidocs]
 | https://github.com/eclipse/jetty.project/tree/jetty-9.2.25.v20180606[source]
 | link:/jetty/documentation/9.2.22.v20170531[documentation]
-| Java 7+
+| EOL
 | 9.1.6.v20160112
 | https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.1.6.v20160112/jetty-distribution-9.1.6.v20160112.zip[.zip]
 | https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.1.6.v20160112/jetty-distribution-9.1.6.v20160112.tar.gz[.tgz]
