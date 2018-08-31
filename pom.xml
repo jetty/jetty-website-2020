@@ -224,7 +224,7 @@
                 <fileset dir="target/documentation-resource/9.4.x/${jetty.9.4.x.version}"/>
               </copy>
               <copy todir="target/docbkx/html/javadoc/current">
-                <fileset dir="src/main/html-resources/javadoc/9.4.12.v20180830"/>
+                <fileset dir="src/main/html-resources/javadoc/9.4.11.v20180605"/>
               </copy>
             </target>
           </configuration>
