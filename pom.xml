@@ -8,8 +8,8 @@
   <packaging>pom</packaging>
   <properties>
     <jetty.stable.version>9.4.12.v20180830</jetty.stable.version>
-    <jetty.9.3.version>9.3.24.v20180605</jetty.9.3.version>
-    <jetty.9.3.x.version>9.3.24-SNAPSHOT</jetty.9.3.x.version>
+    <jetty.9.3.version>9.3.25.v20180904</jetty.9.3.version>
+    <!-- <jetty.9.3.x.version>9.3.24-SNAPSHOT</jetty.9.3.x.version> -->
     <jetty.9.4.x.version>9.4.12-SNAPSHOT</jetty.9.4.x.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <asciidoctor.version>1.5.3</asciidoctor.version>
@@ -177,7 +177,7 @@
                   <overWrite>true</overWrite>
                   <outputDirectory>target/documentation-resource/${jetty.9.3.version}</outputDirectory>
                 </artifactItem>
-                <artifactItem>
+                <!-- <artifactItem>
                   <groupId>org.eclipse.jetty</groupId>
                   <artifactId>jetty-documentation</artifactId>
                   <version>${jetty.9.3.x.version}</version>
@@ -185,7 +185,7 @@
                   <type>zip</type>
                   <overWrite>true</overWrite>
                   <outputDirectory>target/documentation-resource/9.3.x</outputDirectory>
-                </artifactItem>
+                </artifactItem> -->
                 <artifactItem>
                   <groupId>org.eclipse.jetty</groupId>
                   <artifactId>jetty-documentation</artifactId>
@@ -211,20 +211,20 @@
               <copy todir="target/docbkx/html/documentation/9.4.12.v20180830">
                 <fileset dir="target/documentation-resource/9.4.12.v20180830/9.4.12.v20180830"/>
               </copy>
-              <copy todir="target/docbkx/html/documentation/9.3.24.v20180605">
-                <fileset dir="target/documentation-resource/9.3.24.v20180605/9.3.24.v20180605"/>
+              <copy todir="target/docbkx/html/documentation/9.3.25.v20180904">
+                <fileset dir="target/documentation-resource/9.3.25.v20180904/9.3.25.v20180904"/>
               </copy>
               <copy todir="target/docbkx/html/documentation/current">
                 <fileset dir="target/documentation-resource/9.4.12.v20180830/9.4.12.v20180830"/>
               </copy>
-              <copy todir="target/docbkx/html/documentation/9.3.x">
-                <fileset dir="target/documentation-resource/9.3.x/${jetty.9.3.x.version}"/>
+              <!-- <copy todir="target/docbkx/html/documentation/9.3.x">
+                <fileset dir="target/documentation-resource/9.3.x/${jetty.9.3.x.version}"/> -->
               </copy>
               <copy todir="target/docbkx/html/documentation/9.4.x">
                 <fileset dir="target/documentation-resource/9.4.x/${jetty.9.4.x.version}"/>
               </copy>
               <copy todir="target/docbkx/html/javadoc/current">
-                <fileset dir="src/main/html-resources/javadoc/9.4.11.v20180605"/>
+                <fileset dir="src/main/html-resources/javadoc/9.4.12.v20180830"/>
               </copy>
             </target>
           </configuration>
