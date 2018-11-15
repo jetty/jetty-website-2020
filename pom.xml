@@ -9,7 +9,7 @@
   <properties>
     <jetty.stable.version>9.4.13.v20181111</jetty.stable.version>
     <jetty.9.3.version>9.3.25.v20180904</jetty.9.3.version>
-    <jetty.9.4.x.version>9.4.13-SNAPSHOT</jetty.9.4.x.version>
+    <jetty.9.4.x.version>9.4.14-SNAPSHOT</jetty.9.4.x.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <asciidoctor.version>1.5.3</asciidoctor.version>
     <html.directory>${project.build.directory}/jetty</html.directory>
