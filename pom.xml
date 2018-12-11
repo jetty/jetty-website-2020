@@ -95,24 +95,6 @@
               <outputDirectory>${html.common.directory}</outputDirectory>
             </configuration>
           </execution>
-          <execution>
-            <id>copy-tmp-template-assets</id>
-            <phase>generate-resources</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <resources>
-                <resource>
-                  <directory>src/main/resources/template</directory>
-                  <includes>
-                    <include>**</include>
-                  </includes>
-                </resource>
-              </resources>
-              <outputDirectory>${project.build.directory}/template</outputDirectory>
-            </configuration>
-          </execution>
         </executions>
       </plugin>
       <plugin>

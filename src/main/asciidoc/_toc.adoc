@@ -1,0 +1,25 @@
+:linkattrs:
+:notitle:
+
+:toc-title: none
+
+== link:https://eclipse.org/jetty/index.html[Eclipse Jetty]
+=== link:https://eclipse.org/jetty/about.html[About Jetty]
+=== link:https://eclipse.org/jetty/powered.html[Jetty Powered]
+=== link:https://eclipse.org/jetty/licenses.html[Licenses]
+
+== Resources
+=== https://eclipse.org/jetty/downloads.html[Downloads]
+=== https://eclipse.org/jetty/documentation.html[Documentation]
+=== https://eclipse.org/jetty/javadoc/index.html[Javadoc]
+=== https://eclipse.org/jetty/todo.html[Maven Plugin]
+=== https://webtide.com/blogs[Blogs]
+
+== Project Management
+=== Community
+=== Contributing
+=== IP Log
+=== https://github.com/eclipse/jetty.project[Source]
+
+== Professional Services
+=== link:++https://marketplace.eclipse.org/search/site/jetty?f[0]=im_taxonomy_vocabulary_3%3A34++[Training and Consulting]
