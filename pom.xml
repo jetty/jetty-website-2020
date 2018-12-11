@@ -7,25 +7,69 @@
   <name>Jetty :: Website</name>
   <packaging>pom</packaging>
   <properties>
+    <web.resources.version>1.0-SNAPSHOT</web.resources.version>
+    <web.resources.directory>${project.build.directory}/web-resources</web.resources.directory>
     <jetty.stable.version>9.4.14.v20181114</jetty.stable.version>
     <jetty.9.3.version>9.3.25.v20180904</jetty.9.3.version>
     <jetty.9.4.x.version>9.4.15-SNAPSHOT</jetty.9.4.x.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <asciidoctor.version>1.5.3</asciidoctor.version>
-    <html.directory>${project.build.directory}/jetty</html.directory>
+    <asciidoctor.maven.plugin.version>1.5.7.1</asciidoctor.maven.plugin.version>
+    <asciidoctorj.pdf.version>1.5.0-alpha.16</asciidoctorj.pdf.version>
+    <asciidoctorj.epub.version>1.5.0-alpha.8.1</asciidoctorj.epub.version>
+    <asciidoctorj.version>1.5.8.1</asciidoctorj.version>
+    <jruby.version>1.7.27</jruby.version>
+    <html.directory>${project.build.directory}/html</html.directory>
+    <html.common.directory>${project.build.directory}/html/common</html.common.directory>
+    <html.image.directory>${project.build.directory}/html/common/images</html.image.directory>
   </properties>
+  <scm>
+    <connection>scm:git:https://github.com/eclipse/jetty.website.git</connection>
+    <developerConnection>scm:git:git@github.com:eclipse/jetty.website.git</developerConnection>
+    <url>https://github.com/eclipse/jetty.website</url>
+  </scm>
   <build>
     <plugins>
       <plugin>
-        <artifactId>maven-clean-plugin</artifactId>
-        <version>3.1.0</version>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>buildnumber-maven-plugin</artifactId>
+        <version>1.4</version>
         <executions>
           <execution>
-            <id>auto-clean</id>
-            <phase>initialize</phase>
+            <phase>validate</phase>
             <goals>
-              <goal>clean</goal>
+              <goal>create</goal>
             </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <doCheck>false</doCheck>
+          <doUpdate>false</doUpdate>
+          <shortRevisionLength>5</shortRevisionLength>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>unpack-jetty-web-resouces</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+            <configuration>
+              <artifactItems>
+                <artifactItem>
+                  <groupId>org.eclipse.jetty.toolchain</groupId>
+                  <artifactId>jetty-web-resources</artifactId>
+                  <version>${web.resources.version}</version>
+                  <type>jar</type>
+                  <overWrite>true</overWrite>
+                  <outputDirectory>${web.resources.directory}</outputDirectory>
+                </artifactItem>
+              </artifactItems>
+              <excludes>META-INF/**</excludes>
+            </configuration>
           </execution>
         </executions>
       </plugin>
@@ -34,21 +78,39 @@
         <version>2.6</version>
         <executions>
           <execution>
-            <id>copy-assets</id>
-            <phase>process-resources</phase>
+            <id>copy-base-html-assets</id>
+            <phase>generate-resources</phase>
             <goals>
               <goal>copy-resources</goal>
             </goals>
             <configuration>
               <resources>
                 <resource>
-                  <directory>src/main/resources</directory>
+                  <directory>${web.resources.directory}/html</directory>
                   <includes>
                     <include>**</include>
                   </includes>
                 </resource>
               </resources>
-              <outputDirectory>${html.directory}</outputDirectory>
+              <outputDirectory>${html.common.directory}</outputDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>copy-tmp-template-assets</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <resources>
+                <resource>
+                  <directory>src/main/resources/template</directory>
+                  <includes>
+                    <include>**</include>
+                  </includes>
+                </resource>
+              </resources>
+              <outputDirectory>${project.build.directory}/template</outputDirectory>
             </configuration>
           </execution>
         </executions>
@@ -56,7 +118,7 @@
       <plugin>
         <groupId>org.asciidoctor</groupId>
         <artifactId>asciidoctor-maven-plugin</artifactId>
-        <version>${asciidoctor.version}</version>
+        <version>${asciidoctor.maven.plugin.version}</version>
         <executions>
           <execution>
             <id>output-html</id>
@@ -65,261 +127,38 @@
               <goal>process-asciidoc</goal>
             </goals>
             <configuration>
-              <backend>docbook</backend>
-              <doctype>article</doctype>
-              <!--<sourceDocumentName>index.adoc</sourceDocumentName>-->
+              <backend>html5</backend>
+              <templateDir>${web.resources.directory}/asciidoc/template</templateDir>
+              <outputDirectory>${html.directory}</outputDirectory>
               <preserveDirectories>true</preserveDirectories>
               <attributes>
-                <imagesdir>
-                </imagesdir>
-                <version>${project.version}</version>
+                <version>${buildNumber}</version>
+                <toc>left</toc>
+                <toc-title></toc-title>
+                <stylesdir>common/css</stylesdir>
+                <stylesheet>jetty.css</stylesheet>
+                <imagesdir></imagesdir>
                 <linkcss>true</linkcss>
                 <allow-uri-read>true</allow-uri-read>
-                <toc>false</toc>
-                <revnumber>${project.version}</revnumber>
+                <template-dir>${web.resources.directory}/asciidoc/template</template-dir>
               </attributes>
             </configuration>
           </execution>
         </executions>
       </plugin>
-      <plugin>
-        <groupId>com.agilejava.docbkx</groupId>
-        <artifactId>docbkx-maven-plugin</artifactId>
-        <version>2.0.17</version>
-        <executions>
-          <execution>
-            <id>html</id>
-            <phase>compile</phase>
-            <goals>
-              <goal>generate-html</goal>
-            </goals>
-            <configuration>
-              <htmlStylesheet>css/docbook.css</htmlStylesheet>
-              <htmlCustomization>${basedir}/src/main/docbkx-stylesheet/html/docbook.xsl</htmlCustomization>
-              <preProcess>
-                <!-- pull over the images from the source material -->
-                <copy todir="target/docbkx/html/index/images" flatten="true">
-                  <fileset dir="src/main/asciidoc">
-                    <include name="**/*.png"/>
-                    <include name="**/*.jpg"/>
-                    <include name="**/*.svg"/>
-                    <include name="**/*.dot"/>
-                  </fileset>
-                </copy>
-                <!--
-                <copy todir="target/docbkx/html">
-                  <fileset dir="src/main/html-resources/" />
-                </copy>
-              -->
-              </preProcess>
-            </configuration>
-          </execution>
-        </executions>
-        <configuration>
-          <!-- shared configuration -->
-          <sourceDirectory>${project.build.directory}/generated-docs</sourceDirectory>
-          <includes>**/*.xml</includes>
-          <generatedSourceDirectory>${project.build.directory}/docbkx/generated</generatedSourceDirectory>
-          <chunkedOutput>true</chunkedOutput>
-          <highlightSource>true</highlightSource>
-        </configuration>
-        <dependencies>
-          <dependency>
-            <groupId>net.sf.docbook</groupId>
-            <artifactId>docbook-xml</artifactId>
-            <!--version>5.0-all</version-->
-            <version>5.1b4-all</version>
-            <classifier>resources</classifier>
-            <type>zip</type>
-            <scope>runtime</scope>
-          </dependency>
-          <dependency>
-            <groupId>net.sf.xslthl</groupId>
-            <artifactId>xslthl</artifactId>
-            <version>2.1.0</version>
-            <scope>runtime</scope>
-          </dependency>
-        </dependencies>
-      </plugin>
-      <plugin>
-        <artifactId>maven-deploy-plugin</artifactId>
-        <configuration>
-          <skip>true</skip>
-        </configuration>
-      </plugin>
-      <plugin>
-        <artifactId>maven-dependency-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>unpack</id>
-            <phase>generate-resources</phase>
-            <goals>
-              <goal>unpack</goal>
-            </goals>
-            <configuration>
-              <artifactItems>
-                <artifactItem>
-                  <groupId>org.eclipse.jetty</groupId>
-                  <artifactId>jetty-documentation</artifactId>
-                  <version>${jetty.stable.version}</version>
-                  <classifier>html</classifier>
-                  <type>zip</type>
-                  <overWrite>true</overWrite>
-                  <outputDirectory>target/documentation-resource/${jetty.stable.version}</outputDirectory>
-                </artifactItem>
-                <artifactItem>
-                  <groupId>org.eclipse.jetty</groupId>
-                  <artifactId>jetty-documentation</artifactId>
-                  <version>${jetty.9.3.version}</version>
-                  <classifier>html</classifier>
-                  <type>zip</type>
-                  <overWrite>true</overWrite>
-                  <outputDirectory>target/documentation-resource/${jetty.9.3.version}</outputDirectory>
-                </artifactItem>
-                <artifactItem>
-                  <groupId>org.eclipse.jetty</groupId>
-                  <artifactId>jetty-documentation</artifactId>
-                  <version>${jetty.9.4.x.version}</version>
-                  <classifier>html</classifier>
-                  <type>zip</type>
-                  <overWrite>true</overWrite>
-                  <outputDirectory>target/documentation-resource/9.4.x</outputDirectory>
-                </artifactItem>
-              </artifactItems>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    <plugin>
-      <artifactId>maven-antrun-plugin</artifactId>
-      <version>1.8</version>
-      <executions>
-        <execution>
-          <phase>process-resources</phase>
-          <configuration>
-            <target>
-              <copy todir="target/docbkx/html/documentation/9.4.14.v20181114">
-                <fileset dir="target/documentation-resource/9.4.14.v20181114/9.4.14.v20181114"/>
-              </copy>
-              <copy todir="target/docbkx/html/documentation/9.3.25.v20180904">
-                <fileset dir="target/documentation-resource/9.3.25.v20180904/9.3.25.v20180904"/>
-              </copy>
-              <copy todir="target/docbkx/html/documentation/current">
-                <fileset dir="target/documentation-resource/9.4.14.v20181114/9.4.14.v20181114"/>
-              </copy>  
-              <copy todir="target/docbkx/html/documentation/9.4.x">
-                <fileset dir="target/documentation-resource/9.4.x/${jetty.9.4.x.version}"/>
-              </copy>
-              <copy todir="target/docbkx/html/javadoc/current">
-                <fileset dir="src/main/html-resources/javadoc/9.4.14.v20181114"/>
-              </copy>
-            </target>
-          </configuration>
-          <goals>
-            <goal>run</goal>
-          </goals>
-        </execution>
-      </executions>
-    </plugin>
-  </plugins>
-</build>
-<repositories>
-  <repository>
-    <snapshots>
-      <enabled>true</enabled>
-      <updatePolicy>never</updatePolicy>
-      <checksumPolicy>fail</checksumPolicy>
-    </snapshots>
-    <id>jetty-snapshots</id>
-    <name>Jetty Snapshot Repository</name>
-    <url>https://oss.sonatype.org/content/groups/jetty-with-staging/</url>
-    <layout>default</layout>
-  </repository>
-</repositories>
-<!--
- This can be useful for manual deployment of the website, shouldn't be required
- -->
-<!--
-<profiles>
-  <profile>
-    <id>website.deploy</id>
-    <build>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-scm-plugin</artifactId>
-          <version>1.9.4</version>
-          <configuration>
-            <connectionType>developerConnection</connectionType>
-            <developerConnectionUrl>scm:git:ssh://git.eclipse.org/gitroot/www.eclipse.org/jetty.git</developerConnectionUrl>
-          </configuration>
-          <executions>
-            <execution>
-              <id>checkout</id>
-              <phase>validate</phase>
-              <goals>
-                <goal>checkout</goal>
-              </goals>
-              <configuration>
-                <checkoutDirectory>target/jetty.website</checkoutDirectory>
-              </configuration>
-            </execution>
-            <execution>
-              <id>commit-push</id>
-              <phase>deploy</phase>
-              <goals>
-                <goal>add</goal>
-                <goal>checkin</goal>
-                <goal>remove</goal>
-                <goal>checkin</goal>
-              </goals>
-              <configuration>
-                <includes>**/**</includes>
-                <pushChanges>false</pushChanges>
-                <message>jetty-website automated deployment</message>
-                <workingDirectory>target/jetty.website</workingDirectory>
-              </configuration>
-            </execution>
-          </executions>
-        </plugin>
-        <plugin>
-          <artifactId>maven-antrun-plugin</artifactId>
-          <version>1.8</version>
-          <executions>
-            <execution>
-              <phase>package</phase>
-              <configuration>
-                <target>
-                  <copy todir="target/docbkx/html/documentation/9.3.9.v20160517">
-                    <fileset dir="target/documentation-resource/9.3.9.v20160517/jetty-documentation-9.3.9.v20160517/html"/>
-                  </copy>
-                  <copy todir="target/docbkx/html/documentation/current">
-                    <fileset dir="target/documentation-resource/9.3.9.v20160517/jetty-documentation-9.3.9.v20160517/html"/>
-                  </copy>
-                  <copy todir="target/docbkx/html/documentation/9.3.x">
-                    <fileset dir="target/documentation-resource/9.3.x/jetty-documentation-9.3.10-SNAPSHOT/html"/>
-                  </copy>
-                  <copy todir="target/docbkx/html/documentation/9.4.x">
-                    <fileset dir="target/documentation-resource/9.4.x/jetty-documentation-9.4.0-SNAPSHOT/html"/>
-                  </copy>
-                  <exec executable="rsync" dir="." failonerror="true">
-                    <arg value="-azPS"/>
-                    <arg value="-\-filter=P .git"/>
-                    <arg value="-\-delete"/>
-                    <arg value="target/docbkx/html/"/>
-                    <arg value="target/jetty.website"/>
-                  </exec>
-                </target>
-              </configuration>
-              <goals>
-                <goal>run</goal>
-              </goals>
-            </execution>
-          </executions>
-        </plugin>
-      </plugins>
-    </build>
-  </profile>
-</profiles>
--->
+    </plugins>
+  </build>
+  <repositories>
+    <repository>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>never</updatePolicy>
+        <checksumPolicy>fail</checksumPolicy>
+      </snapshots>
+      <id>jetty-snapshots</id>
+      <name>Jetty Snapshot Repository</name>
+      <url>https://oss.sonatype.org/content/groups/jetty-with-staging/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
 </project>
