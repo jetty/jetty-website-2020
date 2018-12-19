@@ -10,6 +10,8 @@
 === link:/jetty/licenses.html[Licenses]
 
 == Guides
+=== link:/jetty/quickstart-guide/index.html[Quickstart Guide]
+=== link:/jetty/administration-guide/index.html[Administration Guide]
 === link:/jetty/contribution-guide/index.html[Contribution Guide]
 
 == Resources

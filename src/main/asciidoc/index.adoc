@@ -12,9 +12,10 @@ endif::[]
 :untitled-label: Eclipse Jetty | Home
 :nofooter:
 :toc-title:
-:breadcrumb: on
+:breadcrumb:
 
-image:jetty-logo.svg[]
+[.right.text-center]
+image:jetty-logo.svg[Jetty Logo, width=80%]
 
 Eclipse Jetty provides a Web server and javax.servlet container, plus support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations.
 These components are open source and available for commercial use and distribution.
@@ -30,7 +31,7 @@ The Jetty project has been hosted at the Eclipse Foundation since 2009.
 Prior releases of Jetty have existed in part or completely under the Jetty project at the The Codehaus and Sourceforge before that.
 See the link:/jetty/about.html[About] page for more information about the history of Jetty.
 
-.empty
+
 [cols="1a,1a", frame="none", options="header",]
 |=========================================================
 | Features	| Jetty Powered
@@ -44,7 +45,7 @@ See the link:/jetty/about.html[About] page for more information about the histor
 * Enterprise scalable
 * Dual licensed under Apache and Eclipse
 |
-* Large clusters, such as the Yahoo Hadoop Cluster
+* Large clusters, such as the Facebook Presto
 * Cloud computing, such as the Google AppEngine
 * SaaS, such as Yahoo! and Zimbra
 * Application Servers, such as Apache Geronimo
