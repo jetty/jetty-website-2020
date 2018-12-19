@@ -1,3 +1,16 @@
+// html specific directives
+ifdef::backend-html5[]
+:safe-mode-unsafe:
+:stylesdir: ../common/css
+:stylesheet: jetty.css
+:linkcss:
+:scriptsdir: ../common/js
+:imagesdir: ../common/images
+endif::[]
+
+:untitled-label: Eclipse Jetty | Javadoc
+:nofooter:
+
 == Eclipse Jetty API Documentation
 
 The latest API documentation for the latest minor versions of Eclipse Jetty is below. Earlier release versions are available in https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution[Maven Central.]

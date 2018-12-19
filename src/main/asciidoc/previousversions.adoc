@@ -1,3 +1,16 @@
+// html specific directives
+ifdef::backend-html5[]
+:safe-mode-unsafe:
+:stylesdir: ./common/css
+:stylesheet: jetty.css
+:linkcss:
+:scriptsdir: ./common/js
+:imagesdir: ./common/images
+endif::[]
+
+:untitled-label: Eclipse Jetty | Previous Versions
+:nofooter:
+
 == Previous Eclipse Jetty Version Downloads
 
 The most recent release of recent previous versions are below.

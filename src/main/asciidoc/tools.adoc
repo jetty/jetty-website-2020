@@ -1,4 +1,15 @@
-:no title:
+// html specific directives
+ifdef::backend-html5[]
+:safe-mode-unsafe:
+:stylesdir: ./common/css
+:stylesheet: jetty.css
+:linkcss:
+:scriptsdir: ./common/js
+:imagesdir: ./common/images
+endif::[]
+
+:untitled-label: Eclipse Jetty | Tools
+:nofooter:
 
 We would like to thank the following wonderful companies for producing excellent software that we have leveraged in the development of Eclipse Jetty.
 

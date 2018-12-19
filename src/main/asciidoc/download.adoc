@@ -1,4 +1,15 @@
-[[eclipse-jetty-download]]
+// html specific directives
+ifdef::backend-html5[]
+:safe-mode-unsafe:
+:stylesdir: ./common/css
+:stylesheet: jetty.css
+:linkcss:
+:scriptsdir: ./common/js
+:imagesdir: ./common/images
+endif::[]
+
+:untitled-label: Eclipse Jetty | Downloads
+:nofooter:
 
 == Eclipse Jetty Downloads
 

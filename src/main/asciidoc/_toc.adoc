@@ -2,16 +2,20 @@
 :notitle:
 
 :toc-title: none
+:toc-image: jetty-logo.svg
 
-== link:https://eclipse.org/jetty/index.html[Eclipse Jetty]
-=== link:https://eclipse.org/jetty/about.html[About Jetty]
-=== link:https://eclipse.org/jetty/powered.html[Jetty Powered]
-=== link:https://eclipse.org/jetty/licenses.html[Licenses]
+== link:/jetty/index.html[Eclipse Jetty]
+=== link:/jetty/about.html[About Jetty]
+=== link:/jetty/powered/index.html[Jetty Powered]
+=== link:/jetty/licenses.html[Licenses]
+
+== Guides
+=== link:/jetty/contribution-guide/index.html[Contribution Guide]
 
 == Resources
-=== https://eclipse.org/jetty/downloads.html[Downloads]
-=== https://eclipse.org/jetty/documentation.html[Documentation]
-=== https://eclipse.org/jetty/javadoc/index.html[Javadoc]
+=== link:/jetty/download.html[Downloads]
+=== link:/jetty/documentation/index.html[Documentation]
+=== link:/jetty/javadoc/index.html[Javadoc]
 === https://eclipse.org/jetty/todo.html[Maven Plugin]
 === https://webtide.com/blogs[Blogs]
 

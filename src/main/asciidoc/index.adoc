@@ -1,4 +1,21 @@
 
+// html specific directives
+ifdef::backend-html5[]
+:safe-mode-unsafe:
+:stylesdir: ./common/css
+:stylesheet: jetty.css
+:linkcss:
+:scriptsdir: ./common/js
+:imagesdir: ./common/images
+endif::[]
+
+:untitled-label: Eclipse Jetty | Home
+:nofooter:
+:toc-title:
+:breadcrumb: on
+
+image:jetty-logo.svg[]
+
 Eclipse Jetty provides a Web server and javax.servlet container, plus support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations.
 These components are open source and available for commercial use and distribution.
 

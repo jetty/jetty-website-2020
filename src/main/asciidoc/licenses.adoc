@@ -1,4 +1,19 @@
-= Licenses
+// html specific directives
+ifdef::backend-html5[]
+:safe-mode-unsafe:
+:stylesdir: ./common/css
+:stylesheet: jetty.css
+:linkcss:
+:scriptsdir: ./common/js
+:imagesdir: ./common/images
+endif::[]
+
+:untitled-label: Eclipse Jetty | Licenses
+:toc-image: jetty-logo.svg
+:toc-image-url: /jetty/index.html
+:nofooter:
+
+== Licenses
 
 Eclipse Jetty 9 (as well as 7 and 8) is dual licensed under the Apache License 2.0 and Eclipse Public License 1.0.
 Eclipse Jetty is free for commercial use and distribution under the terms of either license, with exceptions listed in the NOTICE file.

@@ -1,5 +1,20 @@
+// html specific directives
+ifdef::backend-html5[]
+:safe-mode-unsafe:
+:stylesdir: ./common/css
+:stylesheet: jetty.css
+:linkcss:
+:scriptsdir: ./common/js
+:imagesdir: ./common/images
+endif::[]
 
-== Distributions
+:untitled-label: Eclipse Jetty | About
+:toc-image: jetty-logo.svg
+:toc-image-url: /jetty/index.html
+:nofooter:
+:toc-title:
+
+== About
 
 === Eclipse Jetty
 Eclipse Jetty Web Server provides an HTTP server and Servlet container capable of serving static and dynamic content either from a standalone or embedded instantiations.

@@ -1,4 +1,18 @@
-:no title:
+// html specific directives
+ifdef::backend-html5[]
+:safe-mode-unsafe:
+:stylesdir: ../common/css
+:stylesheet: jetty.css
+:linkcss:
+:scriptsdir: ../common/js
+:imagesdir: ../common/images
+endif::[]
+
+:untitled-label: Eclipse Jetty | Powered By
+:notitle:
+:toc-image: jetty-logo.svg
+:toc-image-url: /jetty/index.html
+:nofooter:
 
 As a small, fast, embeddable web server and servlet container, Eclipse Jetty is used by a multitude of both commercial and open source products.
 These Eclipse Jetty-Powered products illustrate Jetty's versatility and the diversity of its community.
@@ -7,9 +21,13 @@ Send your submission with a product logo (if you have one) and brief text descri
 
 Feel free to download and use our _Powered By Jetty_ logos:
 
-image:/jetty/images/small_powered_by.gif[]
-image:/jetty/images/large_powered_by.gif[]
+:imagesdir: ./images
+
+image:small_powered_by.gif[]
+image:large_powered_by.gif[]
+
+:imagesdir: ../common/images
 
 Finally, there are quite a few projects on this page after 20+ years.  Enjoy!
 
-link:/jetty/powered/powered.html[*See the Power!*]
+link:./powered.html[*See the Power!*]

@@ -7,11 +7,12 @@
   <name>Jetty :: Website</name>
   <packaging>pom</packaging>
   <properties>
-    <web.resources.version>1.0-SNAPSHOT</web.resources.version>
-    <web.resources.directory>${project.build.directory}/web-resources</web.resources.directory>
     <jetty.stable.version>9.4.14.v20181114</jetty.stable.version>
     <jetty.9.3.version>9.3.25.v20180904</jetty.9.3.version>
     <jetty.9.4.x.version>9.4.15-SNAPSHOT</jetty.9.4.x.version>
+    <web.resources.version>1.0-SNAPSHOT</web.resources.version>
+    <web.resources.directory>${project.build.directory}/web-resources</web.resources.directory>
+    <doc.resources.directory>${project.build.directory}/doc-resources</doc.resources.directory>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <asciidoctor.maven.plugin.version>1.5.7.1</asciidoctor.maven.plugin.version>
     <asciidoctorj.pdf.version>1.5.0-alpha.16</asciidoctorj.pdf.version>
@@ -67,6 +68,16 @@
                   <overWrite>true</overWrite>
                   <outputDirectory>${web.resources.directory}</outputDirectory>
                 </artifactItem>
+                <artifactItem>
+                  <groupId>org.eclipse.jetty</groupId>
+                  <artifactId>jetty-documentation</artifactId>
+                  <!-- TODO use released version -->
+                  <version>${jetty.9.4.x.version}</version>
+                  <classifier>html</classifier>
+                  <type>zip</type>
+                  <overWrite>true</overWrite>
+                  <outputDirectory>${doc.resources.directory}</outputDirectory>
+                </artifactItem>
               </artifactItems>
               <excludes>META-INF/**</excludes>
             </configuration>
@@ -95,6 +106,24 @@
               <outputDirectory>${html.common.directory}</outputDirectory>
             </configuration>
           </execution>
+          <execution>
+            <id>copy-doc-assets</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <resources>
+                <resource>
+                  <directory>${doc.resources.directory}/${jetty.9.4.x.version}</directory>
+                  <excludes>
+                    <exclude>common/**</exclude>
+                  </excludes>
+                </resource>
+              </resources>
+              <outputDirectory>${html.directory}</outputDirectory>
+            </configuration>
+          </execution>
         </executions>
       </plugin>
       <plugin>
@@ -116,13 +145,8 @@
               <attributes>
                 <version>${buildNumber}</version>
                 <toc>left</toc>
-                <toc-title></toc-title>
-                <stylesdir>common/css</stylesdir>
-                <stylesheet>jetty.css</stylesheet>
-                <imagesdir></imagesdir>
                 <linkcss>true</linkcss>
                 <allow-uri-read>true</allow-uri-read>
-                <template-dir>${web.resources.directory}/asciidoc/template</template-dir>
               </attributes>
             </configuration>
           </execution>
