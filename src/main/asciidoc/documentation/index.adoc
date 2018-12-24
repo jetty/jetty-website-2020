@@ -9,6 +9,8 @@ ifdef::backend-html5[]
 endif::[]
 
 :untitled-label: Eclipse Jetty | Documentation
+:toc-image: jetty-logo.svg
+:toc-image-url: /jetty/index.html
 :nofooter:
 
 == Eclipse Jetty Documentation

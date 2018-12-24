@@ -9,6 +9,8 @@ ifdef::backend-html5[]
 endif::[]
 
 :untitled-label: Eclipse Jetty | Tools
+:toc-image: jetty-logo.svg
+:toc-image-url: /jetty/index.html
 :nofooter:
 
 We would like to thank the following wonderful companies for producing excellent software that we have leveraged in the development of Eclipse Jetty.
