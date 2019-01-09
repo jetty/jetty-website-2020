@@ -1,0 +1,23 @@
+// html specific directives
+ifdef::backend-html5[]
+:safe-mode-unsafe:
+:stylesdir: ./common/css
+:stylesheet: jetty.css
+:linkcss:
+:scriptsdir: ./common/js
+:imagesdir: ./common/images
+endif::[]
+
+:untitled-label: Eclipse Jetty | Management
+:toc-image: jetty-logo.svg
+:toc-image-url: /jetty/index.html
+:nofooter:
+
+== Eclipse Details
+
+Eclipse Jetty is largely managed as an Eclipse project under the https://www.eclipse.org/rt[Runtime] project.  This is a loosely managed grouping of runtime related projects.
+
+The Eclipse project management tooling provides a summary page which contains general information about the project.  The IPLog is a collection of dependencies that have been approved through the Eclipse CQ process.
+
+* https://projects.eclipse.org/projects/rt.jetty[Project Summary]
+* http://www.eclipse.org/projects/ip_log.php?projectid=rt.jetty[IP Log]

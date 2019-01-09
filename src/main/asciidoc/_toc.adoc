@@ -22,10 +22,8 @@
 === https://webtide.com/blogs[Blogs]
 
 == Project Management
-=== Community
-=== Contributing
-=== IP Log
+=== link:/jetty/eclipse.html[Eclipse]
 === https://github.com/eclipse/jetty.project[Source]
 
 == Professional Services
-=== link:++https://marketplace.eclipse.org/search/site/jetty?f[0]=im_taxonomy_vocabulary_3%3A34++[Training and Consulting]
+=== https://webtide.com[Webtide]
