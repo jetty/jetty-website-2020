@@ -12,6 +12,7 @@
 == Guides
 === link:/jetty/quickstart-guide/index.html[Quickstart Guide]
 === link:/jetty/administration-guide/index.html[Administration Guide]
+=== link:/jetty/development/index.html[Development Guide]
 === link:/jetty/contribution-guide/index.html[Contribution Guide]
 
 == Resources
