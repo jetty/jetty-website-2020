@@ -9,18 +9,18 @@ Earlier releases in a minor release version are available in https://repo1.maven
 [width="100%",cols="30%,10%,10%,10%,10%,10%,30%",options="header",]
 |=======================================================================
 | Release | | | | | | Note
-| 9.3.25.v20180904
-| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.25.v20180904/jetty-distribution-9.3.25.v20180904.zip[.zip]
-| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.25.v20180904/jetty-distribution-9.3.25.v20180904.tar.gz[.tgz]
+| 9.3.26.v20190403
+| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.26.v20190403/jetty-distribution-9.3.26.v20190403.zip[.zip]
+| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.3.26.v20190403/jetty-distribution-9.3.26.v20190403.tar.gz[.tgz]
 | http://www.eclipse.org/jetty/javadoc/9.3.24.v20180605/index.html?overview-summary.html[apidocs]
-| https://github.com/eclipse/jetty.project/tree/9.3.25.v20180904[source]
-| link:/jetty/documentation/9.3.25.v20180904[documentation]
+| https://github.com/eclipse/jetty.project/tree/9.3.26.v20190403[source]
+| link:/jetty/documentation/9.3.26.v20190403[documentation]
 | Java 8+
-| 9.2.26.v20180806
-| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.2.26.v20180806/jetty-distribution-9.2.26.v20180806.zip[.zip]
-| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.2.26.v20180806/jetty-distribution-9.2.26.v20180806.tar.gz[.tgz]
+| 9.2.27.v20190403
+| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.2.27.v20190403/jetty-distribution-9.2.27.v20190403.zip[.zip]
+| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.2.27.v20190403/jetty-distribution-9.2.27.v20190403.tar.gz[.tgz]
 | http://www.eclipse.org/jetty/javadoc/9.2.22.v20170606/index.html?overview-summary.html[apidocs]
-| https://github.com/eclipse/jetty.project/tree/jetty-9.2.26.v20180806[source]
+| https://github.com/eclipse/jetty.project/tree/jetty-9.2.27.v20190403[source]
 | link:/jetty/documentation/9.2.22.v20170531[documentation]
 | EOL
 | 9.1.6.v20160112
