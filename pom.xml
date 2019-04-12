@@ -7,9 +7,9 @@
   <name>Jetty :: Website</name>
   <packaging>pom</packaging>
   <properties>
-    <jetty.stable.version>9.4.15.v20190215</jetty.stable.version>
-    <jetty.9.3.version>9.3.25.v20180904</jetty.9.3.version>
-    <jetty.9.4.x.version>9.4.15-SNAPSHOT</jetty.9.4.x.version>
+    <jetty.stable.version>9.4.16.v20190411</jetty.stable.version>
+    <jetty.9.3.version>9.3.26.v20190403</jetty.9.3.version>
+    <jetty.9.4.x.version>9.4.16-SNAPSHOT</jetty.9.4.x.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <asciidoctor.version>1.5.3</asciidoctor.version>
     <html.directory>${project.build.directory}/jetty</html.directory>
@@ -198,20 +198,20 @@
           <phase>process-resources</phase>
           <configuration>
             <target>
-              <copy todir="target/docbkx/html/documentation/9.4.15.v20190215">
-                <fileset dir="target/documentation-resource/9.4.15.v20190215/9.4.15.v20190215"/>
+              <copy todir="target/docbkx/html/documentation/9.4.16.v20190411">
+                <fileset dir="target/documentation-resource/9.4.16.v20190411/9.4.16.v20190411"/>
               </copy>
-              <copy todir="target/docbkx/html/documentation/9.3.25.v20180904">
-                <fileset dir="target/documentation-resource/9.3.25.v20180904/9.3.25.v20180904"/>
+              <copy todir="target/docbkx/html/documentation/9.3.26.v20190403">
+                <fileset dir="target/documentation-resource/9.3.26.v20190403/9.3.26.v20190403"/>
               </copy>
               <copy todir="target/docbkx/html/documentation/current">
-                <fileset dir="target/documentation-resource/9.4.15.v20190215/9.4.15.v20190215"/>
+                <fileset dir="target/documentation-resource/9.4.16.v20190411/9.4.16.v20190411"/>
               </copy>
               <copy todir="target/docbkx/html/documentation/9.4.x">
                 <fileset dir="target/documentation-resource/9.4.x/${jetty.9.4.x.version}"/>
               </copy>
               <copy todir="target/docbkx/html/javadoc/current">
-                <fileset dir="src/main/html-resources/javadoc/9.4.15.v20190215"/>
+                <fileset dir="src/main/html-resources/javadoc/9.4.16.v20190411"/>
               </copy>
             </target>
           </configuration>
