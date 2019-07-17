@@ -13,6 +13,8 @@ endif::[]
 :toc-image-url: /jetty/index.html
 :nofooter:
 
+:breadcrumb: Home:../index.html | Javadoc
+
 == Eclipse Jetty API Documentation
 
 The latest API documentation for the latest minor versions of Eclipse Jetty is below. Earlier release versions are available in https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution[Maven Central.]

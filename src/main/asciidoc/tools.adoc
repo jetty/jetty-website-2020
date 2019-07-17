@@ -13,6 +13,8 @@ endif::[]
 :toc-image-url: /jetty/index.html
 :nofooter:
 
+:breadcrumb: Home:./index.html | Tools
+
 We would like to thank the following wonderful companies for producing excellent software that we have leveraged in the development of Eclipse Jetty.
 
 === link:http://www.yourkit.com[YourKit]

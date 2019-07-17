@@ -13,6 +13,8 @@ endif::[]
 :toc-image-url: /jetty/index.html
 :nofooter:
 
+:breadcrumb: Home:../index.html | Documentation
+
 == Eclipse Jetty Documentation
 
 The documentation is for Eclipse Jetty is a continual work in progress.

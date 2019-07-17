@@ -11,6 +11,8 @@ endif::[]
 :untitled-label: Eclipse Jetty | Mailing Lists
 :nofooter:
 
+:breadcrumb: Home:./index.html | Mailing Lists
+
 == Mailing Lists
 
 Mailing lists are a primary communication channel with the Eclipse Jetty development team.

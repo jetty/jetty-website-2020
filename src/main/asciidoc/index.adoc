@@ -12,7 +12,6 @@ endif::[]
 :untitled-label: Eclipse Jetty | Home
 :nofooter:
 :toc-title:
-:breadcrumb:
 
 [.right.text-center]
 image:jetty-logo.svg[Jetty Logo, width=80%]

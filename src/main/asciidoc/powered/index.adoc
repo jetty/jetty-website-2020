@@ -15,6 +15,8 @@ endif::[]
 :toc-image-url: /jetty/index.html
 :nofooter:
 
+:breadcrumb: Home:../index.html | Powered By
+
 As a small, fast, embeddable web server and servlet container, Eclipse Jetty is used by a multitude of both commercial and open source products.
 These Eclipse Jetty-Powered products illustrate Jetty's versatility and the diversity of its community.
 

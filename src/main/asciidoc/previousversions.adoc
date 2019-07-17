@@ -13,6 +13,8 @@ endif::[]
 :toc-image-url: /jetty/index.html
 :nofooter:
 
+:breadcrumb: Home:./index.html | Previous Versions
+
 == Previous Eclipse Jetty Version Downloads
 
 The most recent release of recent previous versions are below.
