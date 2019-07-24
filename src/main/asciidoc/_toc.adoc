@@ -1,9 +1,6 @@
 :linkattrs:
 :notitle:
 
-:toc-title: none
-:toc-image: jetty-logo.svg
-
 == link:/jetty/index.html[Eclipse Jetty]
 === link:/jetty/about.html[About Jetty]
 === link:/jetty/powered/index.html[Jetty Powered]
@@ -11,16 +8,16 @@
 
 == Guides
 === link:/jetty/quickstart-guide/index.html[Quickstart Guide]
-=== link:/jetty/administration-guide/index.html[Administration Guide]
-=== link:/jetty/development/index.html[Development Guide]
+=== link:/jetty/distribution-guide/index.html[Distribution Guide]
+=== link:/jetty/embedded-guide/index.html[Embedded Guide]
 === link:/jetty/contribution-guide/index.html[Contribution Guide]
 
 == Resources
+=== https://webtide.com/blogs[Blogs]
 === link:/jetty/download.html[Downloads]
 === link:/jetty/documentation/index.html[Documentation]
 === link:/jetty/javadoc/index.html[Javadoc]
 === https://eclipse.org/jetty/todo.html[Maven Plugin]
-=== https://webtide.com/blogs[Blogs]
 
 == Project Management
 === link:/jetty/eclipse.html[Eclipse]
