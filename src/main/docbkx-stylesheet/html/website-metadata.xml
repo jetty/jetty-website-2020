@@ -33,6 +33,10 @@
       <url>/jetty/javadoc</url>
     </link>
     <link>
+      <title>Security Reports</title>
+      <url>/jetty/security-reports</url>
+    </link>
+    <link>
       <title>Maven Plugin</title>
       <url>/jetty/documentation/current/jetty-maven-plugin.html</url>
     </link>
