@@ -35,7 +35,7 @@ See the link:/jetty/about.html[About] page for more information about the histor
 * Frameworks, such as GWT
 * Tools, such as the Eclipse IDE
 * Devices, such as phones
-* More...
+* And more!
 |=========================================================
 
 
