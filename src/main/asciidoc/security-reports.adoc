@@ -42,7 +42,7 @@ The following sections provide information about Jetty security issues.
 |=======================================================================
 |yyyy/mm/dd |ID |Exploitable |Severity |Affects |Fixed Version |Comment
 
-2020/07/09 |CVE-2019- |Med |High |>= 9.4.27, < = 9.4.29 |9.4.30
+2020/07/09 |CVE-2019-17638 |Med |High |>= 9.4.27, < = 9.4.29 |9.4.30
 |https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17638[In the case of too large response headers, Jetty throws an exception to produce an HTTP 431 error. When this happens, the ByteBuffer containing the HTTP response headers is released back to the ByteBufferPool twice. ]
 
 |2019/11/25 |CVE-2019-9518 |Med |Med |>= 9.4.21, < = 9.4.23 |9.4.24
