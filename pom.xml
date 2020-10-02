@@ -224,7 +224,7 @@
                 <fileset dir="target/documentation-resource/9.3.28.v20191105/9.3.28.v20191105"/>
               </copy>
               <copy todir="target/docbkx/html/javadoc/current">
-                <fileset dir="src/main/html-resources/javadoc/9.4.31.v20200723"/>
+                <fileset dir="src/main/html-resources/javadoc/9.4.32.v20200930"/>
               </copy>
             </target>
           </configuration>
