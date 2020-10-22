@@ -195,6 +195,15 @@
                   <overWrite>true</overWrite>
                   <outputDirectory>target/documentation-resource/${jetty.9.3.version}</outputDirectory>
               </artifactItem>
+              <artifactItem>
+                  <groupId>org.eclipse.jetty</groupId>
+                  <artifactId>jetty-project</artifactId>
+                  <version>${jetty.stable.version}</version>
+                  <classifier>javadoc</classifier>
+                  <type>jar</type>
+                  <overWrite>true</overWrite>
+                  <outputDirectory>target/documentation-resource/javadoc/${jetty.stable.version}</outputDirectory>
+              </artifactItem>
               </artifactItems>
             </configuration>
           </execution>
@@ -208,23 +217,26 @@
           <phase>process-resources</phase>
           <configuration>
             <target>
-              <copy todir="target/docbkx/html/documentation/9.4.33.v20201020">
-                <fileset dir="target/documentation-resource/9.4.33.v20201020/9.4.33.v20201020"/>
+              <copy todir="target/docbkx/html/documentation/${jetty.stable.version}">
+                <fileset dir="target/documentation-resource/${jetty.stable.version}/${jetty.stable.version}"/>
               </copy>
               <copy todir="target/docbkx/html/documentation/current">
-                <fileset dir="target/documentation-resource/9.4.33.v20201020/9.4.33.v20201020"/>
+                <fileset dir="target/documentation-resource/${jetty.stable.version}/${jetty.stable.version}"/>
               </copy>
-              <copy todir="target/docbkx/html/documentation/11.0.0.beta3">
-                <fileset dir="target/documentation-resource/11.0.0.beta3/11.0.0.beta3"/>
+              <copy todir="target/docbkx/html/documentation/${jetty.11.version}">
+                <fileset dir="target/documentation-resource/${jetty.11.version}/${jetty.11.version}"/>
               </copy>
-              <copy todir="target/docbkx/html/documentation/10.0.0.beta3">
-                <fileset dir="target/documentation-resource/10.0.0.beta3/10.0.0.beta3"/>
+              <copy todir="target/docbkx/html/documentation/${jetty.10.version}">
+                <fileset dir="target/documentation-resource/${jetty.10.version}/${jetty.10.version}"/>
               </copy>
-              <copy todir="target/docbkx/html/documentation/9.3.29.v20201019">
-                <fileset dir="target/documentation-resource/9.3.29.v20201019/9.3.29.v20201019"/>
+              <copy todir="target/docbkx/html/documentation/${jetty.9.3.version}">
+                <fileset dir="target/documentation-resource/${jetty.9.3.version}/${jetty.9.3.version}"/>
               </copy>
               <copy todir="target/docbkx/html/javadoc/current">
-                <fileset dir="src/main/html-resources/javadoc/9.4.33.v20201020"/>
+                <fileset dir="target/documentation-resource/javadoc/${jetty.stable.version}"/>
+              </copy>
+              <copy todir="target/docbkx/html/javadoc/${jetty.stable.version}">
+                <fileset dir="target/documentation-resource/javadoc/${jetty.stable.version}"/>
               </copy>
             </target>
           </configuration>

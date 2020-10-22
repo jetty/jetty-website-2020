@@ -2,7 +2,7 @@
 
 == Eclipse Jetty Downloads
 
-The latest release of Eclipse Jetty is below, earlier minor release versions are available in https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution[Maven Central.]
+The latest releases of Eclipse Jetty is below, earlier minor release versions are available in https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution[Maven Central.]
 
 
 .empty
@@ -14,6 +14,16 @@ The latest release of Eclipse Jetty is below, earlier minor release versions are
 | https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.33.v20201020/jetty-distribution-9.4.33.v20201020.tar.gz[.tgz]
 | http://www.eclipse.org/jetty/javadoc/9.4.33.v20201020/index.html?overview-summary.html[apidocs]
 | https://github.com/eclipse/jetty.project/tree/jetty-9.4.33.v20201020[source]
+| 10.0.0.beta3
+| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/10.0.0.beta3/jetty-distribution-10.0.0.beta3.zip[.zip]
+| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/10.0.0.beta30/jetty-distribution-10.0.0.beta3.tar.gz[.tgz]
+| http://www.eclipse.org/jetty/javadoc/10.0.0.beta3/index.html?overview-summary.html[apidocs]
+| https://github.com/eclipse/jetty.project/tree/jetty-10.0.0.beta3[source]
+| 11.0.0.beta3
+| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/11.0.0.beta3/jetty-distribution-11.0.0.beta3.zip[.zip]
+| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.33.v20201020/jetty-distribution-11.0.0.beta3.tar.gz[.tgz]
+| http://www.eclipse.org/jetty/javadoc/11.0.0.beta3/index.html?overview-summary.html[apidocs]
+| https://github.com/eclipse/jetty.project/tree/jetty-11.0.0.beta3[source]
 |=======================================================================
 
 
