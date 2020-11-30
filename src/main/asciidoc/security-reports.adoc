@@ -42,11 +42,15 @@ The following sections provide information about Jetty security issues.
 |=======================================================================
 |yyyy/mm/dd |ID |Exploitable |Severity |Affects |Fixed Version |Comment
 
+|2020/11/17 |CVE-2020-27218 |Med |Med |9.4.0.RC0 - 9.4.34, 10.0.0.alpha0 - 10.0.0.beta2, 11.0.0.alpha0 - 11.0.0.beta2 |9.4.35, 10.0.0.beta3, 11.0.0.beta3
+|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27218[If GZIP request body inflation is enabled and requests
+from different clients are multiplexed onto a single connection, and if an attacker can send a request with a body that is received entirely but not consumed by the application, then a subsequent request on the same connection will see that body prepended to its body.]
+
 |2020/10/19 |CVE-2020-27216 |Med |High |< = 9.4.32 |9.3.29, 9.4.33
-|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27216[If using a shared temp directory on UNIX-based systems an attacker could exploit the creation of a randomly generated file or directory allowing them to execute code and allowing for local privilege escalation. ]
+|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27216[If using a shared temp directory on UNIX-based systems an attacker could exploit the creation of a randomly generated file or directory allowing them to execute code and allowing for local privilege escalation.]
 
 |2020/07/09 |CVE-2019-17638 |Med |High |>= 9.4.27, < = 9.4.29 |9.4.30
-|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17638[In the case of too large response headers, Jetty throws an exception to produce an HTTP 431 error. When this happens, the ByteBuffer containing the HTTP response headers is released back to the ByteBufferPool twice. ]
+|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17638[In the case of too large response headers, Jetty throws an exception to produce an HTTP 431 error. When this happens, the ByteBuffer containing the HTTP response headers is released back to the ByteBufferPool twice.]
 
 |2019/11/25 |CVE-2019-9518 |Med |Med |>= 9.4.21, < = 9.4.23 |9.4.24
 |https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17632[The generation of default unhandled Error response content (in text/html and text/json Content-Type) does not escape Exception messages in stacktraces included in error output.]
