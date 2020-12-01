@@ -190,3 +190,40 @@ constraint bypass.
 |2001/10/21 |medium | |high |<3.1.3 |3.1.3 |Fixed trailing null security
 constraint bypass.
 |=======================================================================
+
+[[security-processes]]
+=== Jetty Security Processes
+
+When a security issue is reported, things move quickly.
+Below is an outline of the process by which the Ecllipse Jetty team identifies and handles reported security issues.
+
+[NOTE]
+====
+If you suspect you have found a security issue, please do not report it publicly. Instead, send an email to _security@webtide.com_.
+====
+
+. On receipt of a security report via _security@webtide.com_ or other channels, if it cannot be trivially dismissed (already fixed, known not a problem, etc.), then a Github security advisory is created by project leadership.
+. Jetty committers and the reporters are added to the security advisory. Individual committers can also be named in the comments for addition.
+. Initial triage and discussion are performed in the comments of the advisory.
+. If enough information exists to attempt reproduction or fix, then a private repository is created.
+. If the vulnerability cannot be confirmed then close the security advisory, else continue.
+. Generate a CVE score and add to the advisory description.
+. Identify a CWE Definition and add to the advisory description
+. Identify vulnerable version(s).
+. Identify workaround(s).
+. Open an Eclipse Bugzilla to get a CVE allocated, cite CWE, and a short description of the vulnerability including versions affected.
+. Build and test fix(es).
+. Once the CVE is allocated update the Security Advisory with the number
+. Once a fix is available, continue:
+. Merge tests and fix  - ensure description does not mention vulnerability directly.
+. Build and stage release candidate.
+. Notify interested parties of pending security advisory and staged release:
+.. Include CVE number, CVE score, and CWE
+.. Include Workarounds
+.. Stress that it is confidential
+.. Advise the security advisory will be published in 2 days unless they indicate they need more time.
+. If testing is OK, then the release is promoted.
+. Interested parties are notified of the availability of release on Maven Central.
+. Publish security advisory and CVE publicly.
+. Edit VERSION.txt and so that the CVE number is now recorded against merged PR.
+. Edit release on Github to identify CVE number.
