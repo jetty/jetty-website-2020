@@ -14,16 +14,16 @@ The latest releases of Eclipse Jetty is below, earlier minor release versions ar
 | https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.35.v20201120/jetty-distribution-9.4.35.v20201120.tar.gz[.tgz]
 | http://www.eclipse.org/jetty/javadoc/9.4.35.v20201120/index.html?overview-summary.html[apidocs]
 | https://github.com/eclipse/jetty.project/tree/jetty-9.4.35.v20201120[source]
-| 10.0.0.beta3
-| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-home/10.0.0.beta3/jetty-home-10.0.0.beta3.zip[.zip]
-| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-home/10.0.0.beta3/jetty-home-10.0.0.beta3.tar.gz[.tgz]
-| http://www.eclipse.org/jetty/javadoc/10.0.0.beta3/index.html?overview-summary.html[apidocs]
-| https://github.com/eclipse/jetty.project/tree/jetty-10.0.0.beta3[source]
-| 11.0.0.beta3
-| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-home/11.0.0.beta3/jetty-home-11.0.0.beta3.zip[.zip]
-| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-home/11.0.0.beta3/jetty-home-11.0.0.beta3.tar.gz[.tgz]
-| http://www.eclipse.org/jetty/javadoc/11.0.0.beta3/index.html?overview-summary.html[apidocs]
-| https://github.com/eclipse/jetty.project/tree/jetty-11.0.0.beta3[source]
+| 10.0.0
+| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-home/10.0.0/jetty-home-10.0.0.zip[.zip]
+| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-home/10.0.0/jetty-home-10.0.0.tar.gz[.tgz]
+| http://www.eclipse.org/jetty/javadoc/10.0.0/index.html?overview-summary.html[apidocs]
+| https://github.com/eclipse/jetty.project/tree/jetty-10.0.0[source]
+| 11.0.0
+| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-home/11.0.0/jetty-home-11.0.0.zip[.zip]
+| https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-home/11.0.0/jetty-home-11.0.0.tar.gz[.tgz]
+| http://www.eclipse.org/jetty/javadoc/11.0.0/index.html?overview-summary.html[apidocs]
+| https://github.com/eclipse/jetty.project/tree/jetty-11.0.0[source]
 |=======================================================================
 
 
