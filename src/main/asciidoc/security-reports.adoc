@@ -21,11 +21,11 @@
 
 There are a number of avenues for reporting security issues to the Jetty project available.
 If the issue is directly related to Jetty itself then reporting to the Jetty developers is encouraged.
-The most direct method is to mail _security@webtide.com_.
+The most direct method is to mail mailto:security@webtide.com[security@webtide.com].
 Since Webtide is comprised of the active committers of the Jetty project this is our preferred reporting method.
 We are generally flexible in how we work with reporters of security issues but we reserve the right to act in the interests of the Jetty project in all circumstances.
 
-If the issue is related to Eclipse or its Jetty integration then we encourage you to reach out to _security@eclipse.org_.
+If the issue is related to Eclipse or its Jetty integration then we encourage you to reach out to mailto:security@eclipse.org[ecurity@eclipse.org].
 
 If the issue is related to integrations with Jetty we are happy to work with you to identify the proper entity and either of the approaches above is fine.
 
@@ -238,7 +238,7 @@ Jetty has a comprehensive test catalog that covers not only functionality but al
 When a new version of Jetty is ready to be built it undergoes rigorous testing throughout the Webtide infrastructure to make sure that it both compiles and builds successfully but that it also runs without errors and functions as expected.
 Webtide uses Jetty for several of its own backend servers and web applications and new builds are tested against these before a release candidate ever moves forward for public availability.
 
-In addition to our own testing, Webtide works with several client partners who have opted to test and install early release builds in their environments.
+In addition to our own testing, Webtide works with several partners who have opted to test and install early release builds in their environments.
 These partners test not only Jetty as a platform but install their web applications and perform security and penetration testing against these builds.
 
 Once internal and partner testing is complete, a process that generally takes several days, the Webtide team moves forward with public releases. R
