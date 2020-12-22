@@ -1,3 +1,5 @@
+THIS REPO HAS BEEN ARCHIVED (see: https://bugs.eclipse.org/bugs/show_bug.cgi?id=569792 )
+
 Final Location: http://eclipse.org/jetty
 
 This is a maven build that leverages asciidoc to produce the static html required for the website.  
